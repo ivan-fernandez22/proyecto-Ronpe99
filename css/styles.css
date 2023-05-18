@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.relleno-amarillo {
+  background-color:rgba(251, 255, 0, 0.61)
+  }
+  
+  .relleno-bordo {
+  background-color:#a01818c5
+  }
+  
+  .relleno-gris {
+  background-color: grey;
+  }
+  
+  .relleno-blanco {
+  background-color: whitesmoke;
+  }
+
+
+/*---------------------INDEX---------------------*/
+
+/*---------------------HEADER----------------*/
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 0.5rem;
+margin-top: 0.5rem;
+}
+
+.caja-logo-ronpe {
+margin-left: 1rem;
+width: 4rem;
+height: 4rem;
+}
+
+h1 {
+font-family: 'Roboto Slab', serif;
+font-size: 2rem;
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+position: relative;
+right: -5px;
+}
+
+.iniciar-registrarse {
+font-family: 'Roboto Slab', serif;
+font-size: 12px;
+margin-right: 0.5rem;
+margin-top: 1rem;
+}
+
+.viñetas-no {
+list-style: none;
+}
+
+.lista-nav {
+font-family: 'Roboto Slab', serif;
+display: flexbox;
+text-align: center;
+font-size: 1.1rem;
+padding: 10px;
+list-style: none;
+background-color: black;
+}
+
+.links-nav {
+text-decoration: none;
+color: yellow;
+}
+
+
+/*-----------------------MAIN----------------------*/
+.carousel-control-prev {
+margin-left: 2rem;
+}
+
+.carousel {
+margin-left: -1rem;
+margin-bottom: 3rem;
+width: 95vw;
+position: relative;
+bottom: 1rem;
+}
+
+.texto-Minibiografia {
+font-family: 'Hind Madurai', sans-serif;
+font-size: 0.8rem;
+position: relative;
+top: -2rem;
+left: -1rem;
+text-align: center;
+}
+
+.seguir-leyendo {
+font-family: 'Hind Madurai', sans-serif;
+list-style: none;
+text-decoration: none;
+font-size: 0.8rem;
+}
+
+.div-seguir-leyendo {
+text-align: center;
+position: relative;
+bottom: 3.5rem;
+}
+
+.div-canciones-populares {
+margin-top: 2rem;
+margin-bottom: 4rem;
+
+}
+
+.canciones-populares-titulo {
+font-family: 'Roboto Slab', serif;
+font-size: 1.3rem;
+text-align: center;
+}
+
+.contenedor-canciones-populares {
+  display: grid;
+  background: yellow;
+  border: solid black;
+  height: 45vh;
+  width: 90vw;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 18% 18% 18% 18%;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Hind Madurai', sans-serif;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  }
+
+.titulo-ult-lanzamiento {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.div-ultimo-lanzamiento {
+height: 20vh;
+width: 95vw;
+background-color: yellow;
+border: solid;
+margin-left: 0.5rem;
+}
+
+.img-trastorno {
+position: relative;
+bottom: 6.5rem;
+left: 11rem;
+}
+
+.nombre-trastorno {
+font-family: 'Hind Madurai';
+font-size: 1.5rem;
+margin-left: 0.3rem;
+}
+
+.fecha-trastorno {
+font-family: 'Hind Madurai';
+font-size: 0.8rem;
+margin-top: -0.8rem;
+margin-left: 0.5rem;
+}
+
+
+/*--------------------FOOTER---------------------*/
+footer {
+background-color:#757d85;
+display:grid;
+grid-template-columns: 60% 40%;
+justify-content: space-between;
+margin-top: 2rem;
+position: relative;
+}
+
+/*----REDES SOCIALES FOOTER----*/
+.titulo-redes-footer {
+font-family: 'Hind Madurai';
+font-size: 1rem;
+margin-left: 0.5rem;
+margin-top: 0.1rem;
+}
+
+.redes-footer {
+font-family: 'Hind Madurai';
+font-size: 0.9rem;
+margin-left:-1.4rem;
+position: relative;
+bottom: 0.5rem;
+}
+
+.links-redes-footer {
+text-decoration: none;
+color: beige;
+}
+
+.bi {
+margin-left: 0.4rem;
+color:gold
+}
+
+/*----NAV FOOTER----*/
+.container-nav-footer {
+position: relative;
+left: -1.7rem;
+font-size: 0.9rem;
+margin-top: 0.1rem;
+margin-left: 1.7rem;
+}
+
+.titulo-nav-footer {
+font-size: 1rem;
+font-family: 'Hind Madurai';
+margin-left: 1.2rem;
+}
+
+.nav-footer {
+position: relative;
+bottom: 0.6rem;
+}
+
+.links-nav-footer {
+text-decoration: none;
+color:beige
+}
+
+/*----EMAIL----*/
+.container-email-footer {
+font-size: 0.7rem;
+margin-left: 0.5rem;
+font-family: 'Hind Madurai';
+margin-bottom: 2rem;
+}
+
+.mail-footer {
+font-size: 0.9rem;
+font-family: 'Hind Madurai';
+position: relative;
+top: 0.5rem;
+text-align: center;
+}
+
+.enviar-footer {
+margin-left: 0.2rem;
+}
+
+.div-titulo-principal {
+display: flex;
+justify-content:center;
+margin-right: 58px;
+}
+
+section img {
+margin-left: 40px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.div-texto-biografia {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    margin-left: 40px;
+    }
+
+    .canciones-top {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color:beige ;
+    }
+
+    section div p {
+    margin-left: 35px;
+    }
+
+    .section-ep {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color:beige ;
+    margin-top: 30px;
+    }
+
+    .section-aparece-en {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color:beige;
+    margin-top: 30px;
+    }
