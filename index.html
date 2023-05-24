@@ -41,7 +41,6 @@
   <main>
 
 
-    <div>
       <nav>
         <ul class="lista-nav">
           <li><a class="links-nav" href="/pages/biografia.html">Biografía</a></li>
@@ -82,6 +81,7 @@
   </div>
 </section>
 
+<div class="estructura">
 <section>
   <div>
     <p class="texto-Minibiografia"> Tomas Diaz, mejor conocido como Ronpe 99, nacido en la ciudad de Mar del Plata es uno de 
@@ -92,7 +92,6 @@
       <a href="./pages/biografia.html" class="seguir-leyendo">Seguir leyendo...</a>
     </div>
 </section>
-
 
 <div class="div-canciones-populares">
   <h2 class="canciones-populares-titulo">Canciones populares</h2>
@@ -107,14 +106,16 @@
     <div class="relleno-blanco">Desde chico</div>
   </section>
 </div>
+</div>
 
-
-  <section>
+  <section class="ultimo-lanzamiento">
     <h2 class="titulo-ult-lanzamiento">Ultimo lanzamiento</h2>
     <div class="div-ultimo-lanzamiento">
-    <h3 class="nombre-trastorno">Trastorno</h3>
-    <p class="fecha-trastorno">13/10/2022</p>
-    <img src="./img/trastornoPortada.jpg" alt="portada de trastorno" width=80vw height=80vh class="img-trastorno">
+      <img src="./img/trastornoPortada.jpg" alt="portada de trastorno" class="img-trastorno">
+      <div class="fecha-nombre-trastorno">
+        <h3 class="nombre-trastorno">Trastorno</h3>
+        <p class="fecha-trastorno">13/10/2022</p>
+      </div>
     </div>
   </section>
 
@@ -122,19 +123,17 @@
   </main>
 
 
-
   <footer>
     
-    <div>
-      <h4 class="titulo-redes-footer">Redes sociales del artista</h4>
-      <ul class="redes-footer">
-        <li class="viñetas-no"><a href="https://www.facebook.com/Ronpe99?locale=es_LA" class="links-redes-footer">Facebook</a><i class="bi bi-facebook"></i></li>
-        <li class="viñetas-no"><a href="https://www.instagram.com/ronpe99/?hl=es-la" class="links-redes-footer">Instagram</a><i class="bi bi-instagram"></i></li>
-        <li class="viñetas-no"><a href="https://twitter.com/ronpe99" class="links-redes-footer">Twitter</a><i class="bi bi-twitter"></i></li>
-        <li class="viñetas-no"><a href="https://www.youtube.com/@Rapstinencia" class="links-redes-footer">Youtube</a><i class="bi bi-youtube"> </i></li>
+    <div class="redes-footer">
+      <h3 class="titulo-redes-footer">Redes sociales del artista</h3>
+      <ul class="lista-redes-footer">
+        <li class="viñetas-no"><a href="https://www.facebook.com/Ronpe99?locale=es_LA" target="_blank" class="links-redes-footer">Facebook</a><i class="bi bi-facebook"></i></li>
+        <li class="viñetas-no"><a href="https://www.instagram.com/ronpe99/?hl=es-la" target="_blank" class="links-redes-footer">Instagram</a><i class="bi bi-instagram"></i></li>
+        <li class="viñetas-no"><a href="https://twitter.com/ronpe99" target="_blank" class="links-redes-footer">Twitter</a><i class="bi bi-twitter"></i></li>
+        <li class="viñetas-no"><a href="https://www.youtube.com/@Rapstinencia" target="_blank" class="links-redes-footer">Youtube</a><i class="bi bi-youtube"> </i></li>
       </ul>
     </div>
-
 
     <div class="container-nav-footer">
       <h3 class="titulo-nav-footer">Navegación</h3>
@@ -146,9 +145,8 @@
       </ul>
     </div>
 
-
     <div class="container-email-footer">
-      <h4 class="mail-footer">Ingresá tu Mail para no perderte informacion sobre proximos conciertos de Ronpe99</h4>
+      <h3 class="mail-footer">Ingresá tu Mail para no perderte informacion sobre proximos conciertos de Ronpe99</h3>
       <div class="enviar-footer">
       <label for="email-usuario"></label>
       <input type="email" id="email-usuario">
@@ -158,7 +156,6 @@
 
 
   </footer>
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
