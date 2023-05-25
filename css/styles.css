@@ -138,7 +138,8 @@ font-family: 'Hind Madurai', sans-serif;
 font-size: 1.1rem;
 position: relative;
 top: -2rem;
-left: -1rem;
+left: -3vw;
+width: 90%;
 text-align: center;
 color: whitesmoke
 }
@@ -157,6 +158,7 @@ bottom: 3.5rem;
 }
 
 /*-----DESKTOP RESPONSIVE SECCION BIOGRAFIA------*/
+
 @media (min-width: 1024px) {
 
 .carousel {
@@ -169,7 +171,7 @@ width: 40vw;
 font-family: 'Hind Madurai', sans-serif;
 width: 40vw;
 font-size: 1.3rem;
-margin-left: 3rem;
+margin-left: 5vw;
 text-align: center;
 color: whitesmoke
 }
@@ -201,7 +203,7 @@ color: whitesmoke;
 
 .contenedor-canciones-populares {
 display: grid;
-background: yellow;
+background: rgba(245, 221, 10, 0.966);
 border: solid black;
 height: 45vh;
 width: 90vw;
@@ -221,9 +223,10 @@ margin-top: 0.5rem;
 @media (min-width: 1024px) {
 
 .canciones-populares-titulo {
-margin-left: 10rem;
+margin-left: 5vw;
 margin-bottom: 1rem;
 color: rgba(245, 221, 10, 0.966);
+font-size: 1.5rem;
 }
 
 .contenedor-canciones-populares {
@@ -232,9 +235,9 @@ grid-template-rows: 20% 20% 20% 20%;
 }
 
 .div-canciones-populares {
-position: relative;
-bottom: 18.6rem;
-left: 1.5rem;
+position:absolute;
+bottom: 120px;
+left: 42.5vw;
 }
 
 }
@@ -249,10 +252,10 @@ color: whitesmoke;
 }
 
 .div-ultimo-lanzamiento {
-height: 20vh;
+height: 15vh;
 width: 95vw;
-background-color: yellow;
-border: solid;
+background-color: rgba(245, 221, 10, 0.966);
+border: solid black;
 margin-left: 2.5vw;
 }
 
@@ -283,6 +286,46 @@ left: 6.5rem;
 }
 
 
+/*----DESKTOP RESPONSIVE SECCION ULTIMO LANZAMIENTO-----*/
+
+@media (min-width: 1024px) {
+
+.titulo-ult-lanzamiento {
+font-size: 1.5rem;
+text-align: start;
+margin-left: 3vw;
+color: rgba(245, 221, 10, 0.966);
+}
+
+.div-ultimo-lanzamiento {
+height: 20vh;
+}
+
+.img-trastorno {
+margin-top: 0.9rem;
+margin-left: 1rem;
+width: 8.3rem;
+height: 8.3rem;
+}
+
+.nombre-trastorno {
+font-size: 1.8rem;
+color: black;
+}
+
+.fecha-trastorno {
+font-size: 1rem;
+color: black;
+}
+
+.fecha-nombre-trastorno {
+position: relative;
+bottom: 8.5rem;
+left: 14vw;
+}
+}
+
+
 /*--------------------FOOTER---------------------*/
 
 footer {
@@ -291,30 +334,44 @@ display:grid;
 grid-template-columns: 60% 40%;
 justify-content: space-between;
 margin-top: 2rem;
-position: relative;
+}
+
+
+/*-------DESKTOP RESPONSIVE FOOTER-------*/
+
+@media (min-width: 1024px) {
+
+footer {
+background-color: black;
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+}
+
 }
 
 
 /*----REDES SOCIALES FOOTER----*/
 
 .redes-footer {
-margin-left: 4vw;
-margin-top: 1rem;
+margin-left: 0vw;
+margin-top: -0.2rem
 }
 
 .titulo-redes-footer {
 font-family: 'Hind Madurai';
 font-size: 1.1rem;
-margin-left: 0.5rem;
+margin-left: 2.8vw;
+margin-top: 1rem;
 color: rgba(245, 221, 10, 0.966);
 }
 
 .lista-redes-footer {
 font-family: 'Hind Madurai';
 font-size: 0.9rem;
-margin-left:-1.4rem;
 position: relative;
 bottom: 0.5rem;
+left: -7px;
 }
 
 .links-redes-footer {
@@ -325,6 +382,25 @@ color: beige;
 .bi {
 margin-left: 0.4rem;
 color:rgba(245, 221, 10, 0.966);
+}
+
+
+/*-----DESKTOP RESPONSIVE REDES SOCIALES FOOTER-----*/
+
+@media (min-width: 1024px) {
+
+.redes-footer {
+margin-left: 0vw;
+}
+
+.titulo-redes-footer {
+font-size: 1.3rem;
+margin-left: 25px;
+}
+
+.lista-redes-footer {
+font-size: 1.1rem;
+}
 }
 
 
@@ -356,6 +432,27 @@ font-family: 'Hind Madurai';
 }
 
 
+/*-----DESKTOP RESPONSIVE NAV FOOTER------*/
+
+@media (min-width: 1024px) {
+
+.container-nav-footer {
+font-size: 1.1rem;
+margin-left: 7vw;
+}
+
+.titulo-nav-footer {
+font-size: 1.3rem;
+margin-left: 2.6vw;
+}
+
+.nav-footer {
+list-style: none;
+}
+
+}
+
+
 /*----EMAIL----*/
 
 .container-email-footer {
@@ -381,27 +478,26 @@ text-align: center;
 }
 
 
-/*--------------------DESKTOP RESPONSIVE INDEX-------------------*/
+/*-----DESKTOP RESPONSIVE EMAIL FOOTER-----*/
 
 @media (min-width: 1024px) {
 
-.caja-logo-ronpe {
-margin-left: 3rem;
+.container-email-footer {
+font-size: 1rem;
+margin-left: 7vw;
+margin-top: 0.7rem;
 }
 
-.iniciar-registrarse {
-margin-right: 3rem;
+.mail-footer {
+position: relative;
+top: 0.5rem;
+color: rgba(245, 221, 10, 0.966);
 }
-
-h1 {
-font-size: 3rem;
-}
-
 
 }
 
 
-/*-------------------------PAGE BIOGRAFIA-------------------------*/
+/*-------------------------PAGE BIOGRAFIA-----------------------*/
 
 h1 {
 position: relative;
@@ -433,7 +529,15 @@ text-align: center;
 color: whitesmoke;
 }
 
-.h2-1 {
+.titulo-bio1 {
+font-family: 'Roboto Slab', serif;
+color: rgba(245, 221, 10, 0.966);
+font-size: 1.5rem;
+text-align: center;
+margin-top: 1.5rem;
+}
+
+.titulo-bio2 {
 font-family: 'Roboto Slab', serif;
 color: rgba(245, 221, 10, 0.966);
 font-size: 1.5rem;
@@ -445,6 +549,64 @@ margin-top: 1.5rem;
 text-decoration: none;
 }
 
+
+/*-----DESKTOP RESPONSIVE PAGE BIOGRAFIA-----*/
+
+@media (min-width: 1024px) {
+
+h1 {
+position: relative;
+left: 1rem;
+}
+
+.container-bio1 {
+display: grid;
+grid-template-columns: 45% 55%;
+}
+
+.foto1-biografia {
+width: 40vw;
+height: 40vh;
+margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: 3vw;
+}
+
+.titulo-bio1 {
+font-family: 'Roboto Slab', serif;
+color: rgba(245, 221, 10, 0.966);
+font-size: 2rem;
+text-align: center;
+margin-top: 1.3rem;
+}
+
+.div-texto-biografia {
+margin-left: 1.5vw;
+margin-top: 1rem;
+font-size: 1.3rem;
+}
+
+.container-bio2 {
+display: grid;
+grid-template-columns: 45% 55%;
+}
+
+.foto2-biografia {
+width: 40vw;
+height: 50vh;
+margin-left: 3vw;
+margin-top: 2rem;
+}
+
+.titulo-bio2 {
+font-size: 2rem;
+margin-top: 2rem;
+}
+
+}
+
+
+/*-----*/
     .canciones-top {
     display: flex;
     width: 400px;
