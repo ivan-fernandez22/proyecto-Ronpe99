@@ -165,7 +165,7 @@ header {
         background: linear-gradient(90deg, rgba(73,72,67,1) 0%, 
         rgba(101,99,74,1) 26%, rgba(185,184,173,1) 80%);
         border: solid black;
-        height: 54vh;
+        height: 500px;
         width: 90vw;
         gap: 10px;
         margin-left: 4.5vw;
@@ -197,7 +197,7 @@ header {
 @media (min-width: 1024px) {
     .canciones_populares_section {
         position:absolute;
-        bottom: 70px;
+        top: 240px;
         left: 42.5vw;
 
         .canciones_populares_titulo {
@@ -209,6 +209,7 @@ header {
 
         .canciones_populares_container {
             width: 50vw;
+            height: 500px;
         }
     }
 }
@@ -225,7 +226,7 @@ header {
 }
 
 .ult_lanzamiento_div {
-    height: 15vh;
+    height: 8rem;
     width: 95vw;
     background: rgb(45,37,14);
     background: linear-gradient(90deg, rgba(45,37,14,1) 0%, rgba(148,141,55,1) 40%, rgba(196,181,12,1) 80%);
@@ -272,7 +273,7 @@ header {
 }
 
     .ult_lanzamiento_div {
-        height: 20vh;
+        height: 22.5vh;
         margin-top: 1rem;
 
         .img-trastorno {
@@ -295,7 +296,7 @@ header {
                 margin-top: -0.5rem;
             }
             .ult_lanzamiento_reproductor {
-                margin-top: 20px;
+                margin-top: 15px;
                 width: 60%;
             }
         } 

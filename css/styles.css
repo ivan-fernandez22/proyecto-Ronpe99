@@ -158,7 +158,7 @@ header .iniciar-registrarse {
   background: rgb(73, 72, 67);
   background: linear-gradient(90deg, rgb(73, 72, 67) 0%, rgb(101, 99, 74) 26%, rgb(185, 184, 173) 80%);
   border: solid black;
-  height: 54vh;
+  height: 500px;
   width: 90vw;
   gap: 10px;
   margin-left: 4.5vw;
@@ -186,7 +186,7 @@ header .iniciar-registrarse {
 @media (min-width: 1024px) {
   .canciones_populares_section {
     position: absolute;
-    bottom: 70px;
+    top: 240px;
     left: 42.5vw;
   }
   .canciones_populares_section .canciones_populares_titulo {
@@ -197,6 +197,7 @@ header .iniciar-registrarse {
   }
   .canciones_populares_section .canciones_populares_container {
     width: 50vw;
+    height: 500px;
   }
 }
 /*-------SECCION ULTIMO LANZAMIENTO--------*/
@@ -209,7 +210,7 @@ header .iniciar-registrarse {
 }
 
 .ult_lanzamiento_div {
-  height: 15vh;
+  height: 8rem;
   width: 95vw;
   background: rgb(45, 37, 14);
   background: linear-gradient(90deg, rgb(45, 37, 14) 0%, rgb(148, 141, 55) 40%, rgb(196, 181, 12) 80%);
@@ -253,7 +254,7 @@ header .iniciar-registrarse {
     color: rgba(245, 221, 10, 0.966);
   }
   .ult_lanzamiento_div {
-    height: 20vh;
+    height: 22.5vh;
     margin-top: 1rem;
   }
   .ult_lanzamiento_div .img-trastorno {
@@ -276,7 +277,7 @@ header .iniciar-registrarse {
     margin-top: -0.5rem;
   }
   .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_reproductor {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 60%;
   }
 }
