@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: white;
   height: 7rem;
 }
 header .caja-logo-ronpe {
@@ -198,6 +198,7 @@ header .iniciar-registrarse {
   .canciones_populares_section .canciones_populares_container {
     width: 50vw;
     height: 500px;
+    overflow: hidden;
   }
 }
 /*-------SECCION ULTIMO LANZAMIENTO--------*/
@@ -606,27 +607,35 @@ footer {
     top: 0.5rem;
   }
 }
+/*-----------BIOGRAFIA-----------*/
+/*------HEADER------*/
 h1 {
   position: relative;
   left: 1rem;
 }
 
-.foto1-biografia {
+@media (min-width: 1024px) {
+  h1 {
+    position: relative;
+    left: 1rem;
+  }
+}
+/*SECCION 1 BIOGRAFIA*/
+.bio1_container .bio1_img {
   width: 90vw;
   height: 40vh;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   margin-left: 4.8vw;
 }
-
-.foto2-biografia {
-  width: 90vw;
-  height: 50vh;
-  margin-left: 5vw;
-  margin-top: 1rem;
+.bio1_container .bio1_body .bio1_titulo {
+  font-family: "Roboto Slab", serif;
+  color: rgba(245, 221, 10, 0.966);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
 }
-
-.div-texto-biografia {
+.bio1_container .bio1_body .bio_texto {
   font-family: "Hind Madurai";
   margin-left: 1.5rem;
   font-size: 1.1rem;
@@ -636,65 +645,69 @@ h1 {
   color: whitesmoke;
 }
 
-.titulo-bio1 {
-  font-family: "Roboto Slab", serif;
-  color: rgba(245, 221, 10, 0.966);
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 1.5rem;
-}
-
-.titulo-bio2 {
-  font-family: "Roboto Slab", serif;
-  color: rgba(245, 221, 10, 0.966);
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 1.5rem;
-}
-
-.link-entrevista {
-  text-decoration: none;
-}
-
-/*-----DESKTOP RESPONSIVE PAGE BIOGRAFIA-----*/
 @media (min-width: 1024px) {
-  h1 {
-    position: relative;
-    left: 1rem;
-  }
-  .container-bio1 {
+  .bio1_container {
     display: grid;
     grid-template-columns: 45% 55%;
   }
-  .foto1-biografia {
+  .bio1_container .bio1_img {
     width: 40vw;
     height: 40vh;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 3vw;
   }
-  .titulo-bio1 {
+  .bio1_container .bio1_body .bio1_titulo {
     font-family: "Roboto Slab", serif;
     font-size: 2rem;
     text-align: center;
     margin-top: 1.3rem;
   }
-  .div-texto-biografia {
+  .bio1_container .bio1_body .bio_texto {
     margin-left: 1.5vw;
     margin-top: 1rem;
     font-size: 1.3rem;
   }
-  .container-bio2 {
+}
+/*SECCION 2 BIOGRAFIA*/
+.bio2_container .bio2_img {
+  width: 90vw;
+  height: 50vh;
+  margin-left: 5vw;
+  margin-top: 1rem;
+}
+.bio2_container .bio2_body .bio2_titulo {
+  font-family: "Roboto Slab", serif;
+  color: rgba(245, 221, 10, 0.966);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.bio2_container .bio2_body .bio_texto {
+  font-family: "Hind Madurai";
+  margin-left: 1.5rem;
+  font-size: 1.1rem;
+  width: 85%;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+}
+.bio2_container .bio2_body .bio_texto .link-entrevista {
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .bio2_container {
     display: grid;
     grid-template-columns: 45% 55%;
   }
-  .foto2-biografia {
+  .bio2_container .bio2_img {
     width: 40vw;
     height: 50vh;
     margin-left: 3vw;
     margin-top: 2rem;
   }
-  .titulo-bio2 {
+  .bio2_container .bio2_body .bio2_titulo {
     font-size: 2rem;
     margin-top: 2rem;
   }
