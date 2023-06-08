@@ -1,0 +1,688 @@
+/*---------------------HEADER----------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-blanco;
+    height: 7rem;
+
+    .caja-logo-ronpe {
+        margin-left: 1rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+        right: -5px;
+    }
+
+    .iniciar-registrarse {
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .caja-logo-ronpe {
+        margin-left: 3rem;
+    }
+    .iniciar-registrarse {
+        margin-right: 3rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+/*-----------------------MAIN----------------------*/
+
+/*------------NAV----------*/
+
+.nav_list {
+    font-family: 'Roboto Slab', serif;
+    display: flexbox;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+    list-style: none;
+    background-color: black;
+    .nav_links {
+        text-decoration: none;
+        color: yellow;
+        &:hover {
+            font-size: 1.4rem;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        padding: 50px;
+    }
+}
+
+
+/*------ESTRUCTURA SITIO DESKTOP------*/
+@media (min-width: 1024px) {
+.estructura-sitio{
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+}
+
+
+/*-------SECCION BIOGRAFIA-------*/
+
+.carousel {
+    margin-left: 5vw;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 90vw;
+    position: relative;
+    bottom: 1rem;
+}
+
+.texto_Minibiografia {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.1rem;
+    position: relative;
+    top: -2rem;
+    left: -15px;
+    width: 90%;
+    text-align: center;
+    color: $color-blanco
+}
+
+.seguir_leyendo_div{
+    text-align: center;
+    position: relative;
+    bottom: 3.5rem;
+
+    .seguir_leyendo {
+        font-family: 'Hind Madurai', sans-serif;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.1rem;
+        &:hover {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+.carousel {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    width: 40vw;
+}
+
+.texto-Minibiografia {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: $color-blanco
+}
+
+.seguir-leyendo_div {
+    position: relative;
+    left: 2rem;
+
+    .seguir_leyendo {
+        font-size: 1.3rem;
+    }
+}
+}
+
+
+/*-----SECCION CANCIONES POPULARES------*/
+
+.canciones_populares_section {
+    margin-bottom: 4rem;
+
+    .canciones_populares_titulo {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.3rem;
+        text-align: center;
+        color: $color-principal;
+    }
+
+    .canciones_populares_container {
+        background: rgb(73,72,67);
+        background: linear-gradient(90deg, rgba(73,72,67,1) 0%, 
+        rgba(101,99,74,1) 26%, rgba(185,184,173,1) 80%);
+        border: solid black;
+        height: 54vh;
+        width: 90vw;
+        gap: 10px;
+        margin-left: 4.5vw;
+        margin-top: 0.5rem;
+
+        .canciones_populares_div {
+            border-radius: 10px;
+            background: black;
+            width: 95%;
+            margin-top: 1rem;
+            text-align: center;
+            justify-content: center;
+            margin-left: 2vw;
+
+            .canciones_populares_nombreTema {
+                font-size: 1.2rem;
+                font-family: 'Hind Madurai', sans-serif;
+                color: $color-blanco
+            }
+
+            .canciones_populares_reproductor {
+                width: 90%;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .canciones_populares_section {
+        position:absolute;
+        bottom: 70px;
+        left: 42.5vw;
+
+        .canciones_populares_titulo {
+            margin-left: 5vw;
+            margin-bottom: 1rem;
+            color: $color-principal;
+            font-size: 1.5rem;
+        }
+
+        .canciones_populares_container {
+            width: 50vw;
+        }
+    }
+}
+
+
+/*-------SECCION ULTIMO LANZAMIENTO--------*/
+
+.ult_lanzamiento_titulo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: $color-principal;
+    margin-top: 4rem;
+}
+
+.ult_lanzamiento_div {
+    height: 15vh;
+    width: 95vw;
+    background: rgb(45,37,14);
+    background: linear-gradient(90deg, rgba(45,37,14,1) 0%, rgba(148,141,55,1) 40%, rgba(196,181,12,1) 80%);
+    border: solid black;
+    margin-left: 2.5vw;
+
+    .img-trastorno {
+        margin-top: 0.9rem;
+        margin-left: 1rem;
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .ult_lanzamiento_body {
+        position: relative;
+        bottom: 5.5rem;
+        left: 7rem;
+        .ult_lanzamiento_nombre {
+            font-family: 'Hind Madurai';
+            font-size: 1.5rem;
+            margin-left: 0.3rem;
+            }
+        .ult_lanzamiento_fecha {
+            font-family: 'Hind Madurai';
+            font-size: 1rem;
+            margin-top: -0.8rem;
+            margin-left: 0.5rem;
+            }
+        .ult_lanzamiento_reproductor {
+            margin-top: -10px;
+            margin-left: 10px;
+            border-radius: 30px;
+            width: 55vw
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .ult_lanzamiento_titulo {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-left: 2.8vw;
+    color: $color-principal;
+}
+
+    .ult_lanzamiento_div {
+        height: 20vh;
+        margin-top: 1rem;
+
+        .img-trastorno {
+            margin-top: 0.9rem;
+            margin-left: 1rem;
+            width: 8.3rem;
+            height: 8.3rem;
+        }
+
+        .ult_lanzamiento_body {
+            margin-left: 6vw;
+            margin-top: -2.9rem;
+            .ult_lanzamiento_nombre {
+                font-size: 1.8rem;
+                color: black;
+            }
+            .ult_lanzamiento_fecha {
+                font-size: 1rem;
+                color: black;
+                margin-top: -0.5rem;
+            }
+            .ult_lanzamiento_reproductor {
+                margin-top: 20px;
+                width: 60%;
+            }
+        } 
+    }
+}
+
+
+/*-----------SECCION TARJETAS------------*/
+
+.tarjetas {
+    margin-top: 5rem;
+
+    .tarjetas_titulo {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.3rem;
+        text-align: center;
+        color: $color-principal;
+    }
+
+    .tarjeta1_div {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 2rem;
+        background-color: rgb(170, 146, 146);
+        box-shadow: 4px 3px 2px 2px $color-principal;
+        position: relative;
+        bottom: 1rem;
+
+        .tarjetas_img {
+            width: 100%;
+            height: 200px;
+            border: 2px solid black
+        }
+
+        .tarjetas_body {
+            padding: 1rem;
+
+            .tarjetas_body_nombreCancion {
+                color: $color-beige;
+                font-family: 'Hind Madurai';
+                font-size: 1.9rem;
+                text-align: center;
+            }
+
+            .tarjetas_body_fechaDeLanzamiento {
+                color: $color-beige;
+                font-family: 'Hind Madurai';
+                font-size: 1.4rem;
+                position: relative;
+                left: -30px;
+                top: 1rem;
+            }
+
+            .tarjetas_reproductor {
+                background-color: black;
+                width: 100%;
+                border-radius: 20px;
+                margin-top: 0.5rem;
+            }
+
+            .tarjetas_body_letra {
+                margin-left: 0vw;
+                margin-top: 1rem;
+                font-size: 0.8rem;
+                font-family: 'Hind Madurai';
+            }
+        }
+    }
+
+    .tarjeta2_div {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 2rem;
+        background-color: rgb(170, 146, 146);
+        box-shadow: 4px 3px 2px 2px $color-principal;
+
+        .tarjetas_img {
+            width: 100%;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        .tarjetas_body {
+            padding: 1rem;
+
+            .tarjetas_body_nombreCancion {
+                color: $color-beige;
+                font-family: 'Hind Madurai';
+                font-size: 1.9rem;
+                text-align: center;
+            }
+
+            .tarjetas_body_fechaDeLanzamiento {
+                color: $color-beige;
+                font-family: 'Hind Madurai';
+                font-size: 1.4rem;
+                position: relative;
+                left: -30px;
+                top: 1rem;
+            }
+
+            .tarjetas_reproductor {
+                background-color: black;
+                width: 100%;
+                border-radius: 20px;
+                margin-top: 0.5rem;
+            }
+
+            .tarjetas_body_letra {
+                margin-left: 0vw;
+                margin-top: 1rem;
+                font-size: 0.8rem;
+                font-family: 'Hind Madurai';
+            }
+        }
+    }
+}
+
+    .tarjeta3_div {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 3rem;
+        background-color: rgb(170, 146, 146);
+        box-shadow: 4px 3px 2px 2px $color-principal;
+
+        .tarjetas_img {
+                width: 100%;
+            height: 200px;
+            border: 2px solid black;
+            object-fit: cover;
+        }
+
+        .tarjetas_body {
+            padding: 1rem;
+
+            .tarjetas_body_nombreCancion {
+                color: $color-beige;
+                font-family: 'Hind Madurai';
+                font-size: 1.9rem;
+                text-align: center;
+            }
+
+            .tarjetas_body_fechaDeLanzamiento {
+                color: $color-beige;
+                font-family: 'Hind Madurai';
+                font-size: 1.4rem;
+                position: relative;
+                left: -30px;
+                top: 1rem;
+            }
+
+            .tarjetas_reproductor {
+                background-color: black;
+                width: 100%;
+                border-radius: 20px;
+                margin-top: 0.5rem;
+            }
+
+            .tarjetas_body_letra {
+                margin-left: 0vw;
+                margin-top: 1rem;
+                font-size: 0.77rem;
+                font-family: 'Hind Madurai';
+            }
+        }
+    }
+
+@media (min-width: 1024px) {
+    .tarjetas {
+        .tarjetas_titulo {
+            font-size: 1.5rem;
+            text-align: start;
+            margin-left: 3vw;
+        }
+
+        .tarjetas_div_estructura {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            margin-top: -1rem;
+
+            .tarjeta1_div {
+                width: 30vw;
+                margin-left: 3vw;
+                position: relative;
+                top: 0rem;
+            }
+
+            .tarjeta2_div {
+                width: 30vw;
+                margin-left: 2vw;
+            }
+
+            .tarjeta3_div {
+                width: 30vw;
+                margin-left: 1vw;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+/*------------------------FOOTER-------------------------*/
+
+footer {
+    background-color: black;
+    display:grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+
+@media (min-width: 1024px) {
+    footer {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/*----------------REDES SOCIALES FOOTER-------------------*/
+
+.redes_div {
+    margin-left: 0vw;
+    margin-top: -0.1rem;
+
+    .redes_titulo {
+        font-family: 'Hind Madurai';
+        font-size: 1.1rem;
+        margin-left: 23px;
+        margin-top: 1rem;
+        color: $color-principal;
+    }
+
+    .redes_list {
+        font-family: 'Hind Madurai';
+        font-size: 0.9rem;
+        position: relative;
+        bottom: 0.5rem;
+        left: -7px;
+
+        .redes_link_facebook {
+            text-decoration: none;
+            color: $color-beige;
+            &:hover {
+                color: cornflowerblue;
+            }
+        }
+
+        .redes_link_instagram {
+            text-decoration: none;
+            color: $color-beige;
+            &:hover {
+                color: #833AB4;
+            }
+        }
+
+        .redes_link_twitter {
+            text-decoration: none;
+            color: $color-beige;
+            &:hover {
+                color: deepskyblue;
+            }
+        }
+
+        .redes_link_youtube {
+            text-decoration: none;
+            color: $color-beige;
+            &:hover {
+                color: #c4302b;
+            }
+        }
+
+        .bi-facebook {
+            margin-left: 0.4rem;
+            color: cornflowerblue;
+        }
+
+        .bi-instagram {
+            margin-left: 0.4rem;
+            color: #833AB4;
+        }
+
+        .bi-twitter {
+            margin-left: 0.4rem;
+            color: deepskyblue;
+        }
+
+        .bi-youtube {
+            margin-left: 0.4rem;
+            color: #c4302b;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .redes_div {
+        margin-left: 0vw;
+
+        .redes_titulo {
+            font-size: 1.3rem;
+            margin-left: 25px;
+        }
+    
+        .redes_list {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+
+/*--------------------------NAV FOOTER----------------------------*/
+
+.nav_footer_div {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-left: 1vw;
+
+    .nav_footer_titulo {
+        font-size: 1.1rem;
+        font-family: 'Hind Madurai';
+        margin-left: 1.2rem;
+        color: $color-principal;
+    }
+
+    .nav_footer_list{
+        position: relative;
+        bottom: 0.6rem;
+        color: $color-principal;
+
+        .nav_footer_links {
+            text-decoration: none;
+            color:$color-beige;
+            font-family: 'Hind Madurai';
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav_footer_div {
+        font-size: 1.1rem;
+        margin-left: 7vw;
+
+        .nav_footer_titulo {
+            font-size: 1.3rem;
+            margin-left: 30px;
+        }
+
+        .nav_footer_list {
+            list-style: none;
+        }
+    }
+}
+
+
+/*---------------------------------EMAIL FOOTER-----------------------------*/
+
+.mail_footer_div {
+    font-size: 0.7rem;
+    margin-left: 1.3rem;
+    font-family: 'Hind Madurai';
+    margin-bottom: 2rem;
+
+    .mail_footer_texto {
+        font-size: 0.9rem;
+        font-family: 'Hind Madurai';
+        position: relative;
+        top: 0.5rem;
+        text-align: center;
+        color: $color-principal;
+    }
+
+    .mail_footer_formulario {
+        margin-top: 1rem;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mail_footer_div {
+        font-size: 1rem;
+        margin-left: 7vw;
+        margin-top: 0.7rem;
+        .mail_footer_texto {
+            position: relative;
+            top: 0.5rem;
+        }
+    }
+}
