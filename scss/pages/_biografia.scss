@@ -1,0 +1,102 @@
+h1 {
+    position: relative;
+    left: 1rem;
+}
+
+.foto1-biografia {
+    width: 90vw;
+    height: 40vh;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 4.8vw;
+}
+
+.foto2-biografia {
+    width: 90vw;
+    height: 50vh;
+    margin-left: 5vw;
+    margin-top: 1rem;
+}
+
+.div-texto-biografia {
+    font-family: 'Hind Madurai';
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    width: 85%;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.titulo-bio1 {
+    font-family: 'Roboto Slab', serif;
+    color: rgba(245, 221, 10, 0.966);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.titulo-bio2 {
+    font-family: 'Roboto Slab', serif;
+    color: rgba(245, 221, 10, 0.966);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.link-entrevista {
+    text-decoration: none;
+}
+
+
+/*-----DESKTOP RESPONSIVE PAGE BIOGRAFIA-----*/
+
+@media (min-width: 1024px) {
+    h1 {
+        position: relative;
+        left: 1rem;
+    }
+
+    .container-bio1 {
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+
+    .foto1-biografia {
+        width: 40vw;
+        height: 40vh;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 3vw;
+    }
+
+    .titulo-bio1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1.3rem;
+    }
+
+    .div-texto-biografia {
+        margin-left: 1.5vw;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .container-bio2 {
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+
+    .foto2-biografia {
+        width: 40vw;
+        height: 50vh;
+        margin-left: 3vw;
+        margin-top: 2rem;
+    }
+
+    .titulo-bio2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}
