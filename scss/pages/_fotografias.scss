@@ -1,0 +1,18 @@
+/*-----------FOTOGRAFIAS-----------*/
+
+
+/*------HEADER------*/
+header {
+    h1 {
+        font-size: -1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        position: relative;
+        left: 1rem;
+    }
+}
+
+/*-------------*/
