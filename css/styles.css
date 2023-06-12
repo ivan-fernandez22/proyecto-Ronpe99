@@ -16,7 +16,6 @@ body {
 /*---------------------HEADER----------------*/
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: white;
   height: 7rem;
@@ -31,25 +30,14 @@ header h1 {
   font-size: 2rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  position: relative;
-  right: -5px;
-}
-header .iniciar-registrarse {
-  font-family: "Roboto Slab", serif;
-  font-size: 12px;
-  margin-right: 0.5rem;
-  margin-top: 1rem;
 }
 
 @media (min-width: 1024px) {
-  .caja-logo-ronpe {
+  header .caja-logo-ronpe {
     margin-left: 3rem;
   }
-  .iniciar-registrarse {
-    margin-right: 3rem;
-  }
-  h1 {
-    font-size: 3rem;
+  header h1 {
+    font-size: 2.5rem;
   }
 }
 /*-----------------------MAIN----------------------*/
@@ -79,6 +67,13 @@ header .iniciar-registrarse {
     align-items: center;
     height: 5rem;
     padding: 50px;
+  }
+  .nav_list .nav_links {
+    font-size: 1.6rem;
+  }
+  .nav_list .nav_links:hover {
+    font-size: 1.7rem;
+    text-decoration: underline;
   }
 }
 /*------ESTRUCTURA SITIO DESKTOP------*/
@@ -255,18 +250,18 @@ header .iniciar-registrarse {
     color: rgba(245, 221, 10, 0.966);
   }
   .ult_lanzamiento_div {
-    height: 22.5vh;
+    height: 160px;
     margin-top: 1rem;
   }
   .ult_lanzamiento_div .img-trastorno {
-    margin-top: 0.9rem;
+    margin-top: 0.6rem;
     margin-left: 1rem;
     width: 8.3rem;
     height: 8.3rem;
   }
   .ult_lanzamiento_div .ult_lanzamiento_body {
     margin-left: 6vw;
-    margin-top: -2.9rem;
+    margin-top: -2.3rem;
   }
   .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_nombre {
     font-size: 1.8rem;
@@ -569,10 +564,7 @@ footer {
   }
   .nav_footer_div .nav_footer_titulo {
     font-size: 1.3rem;
-    margin-left: 30px;
-  }
-  .nav_footer_div .nav_footer_list {
-    list-style: none;
+    margin-left: 15px;
   }
 }
 /*---------------------------------EMAIL FOOTER-----------------------------*/
@@ -768,6 +760,244 @@ h1 {
     margin-left: 1.5vw;
     margin-top: 1rem;
     font-size: 1.3rem;
+  }
+}
+/*-----------FOTOGRAFIAS-----------*/
+/*------HEADER------*/
+h1 {
+  font-size: -1rem;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    position: relative;
+    left: 1rem;
+  }
+}
+/*------SECCION FOTOS RONPE-------*/
+.fotos_ronpe .fotos_ronpe_titulo {
+  font-family: "Roboto Slab", serif;
+  color: rgba(245, 221, 10, 0.966);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.fotos_ronpe .fotos_ronpe_div {
+  margin-left: 5vw;
+}
+.fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img1 {
+  width: 90vw;
+  height: 25rem;
+  margin-top: 1rem;
+  border: 2px solid black;
+}
+.fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img2 {
+  width: 90vw;
+  height: 25rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+.fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img3 {
+  width: 90vw;
+  height: 25rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+.fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img4 {
+  width: 90vw;
+  height: 25rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+
+@media (min-width: 1024px) {
+  .fotos_ronpe .fotos_ronpe_titulo {
+    font-size: 1.8rem;
+  }
+  .fotos_ronpe .fotos_ronpe_div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-left: 8vw;
+    margin-top: 2rem;
+  }
+  .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img1 {
+    width: 40vw;
+  }
+  .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img2 {
+    width: 40vw;
+    margin-left: -1rem;
+    margin-top: 1.05rem;
+  }
+  .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img3 {
+    width: 40vw;
+  }
+  .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img4 {
+    width: 40vw;
+    margin-left: -1rem;
+    position: relative;
+  }
+}
+/*------SECCION CONCIERTOS RONPE IMGS-------*/
+.conciertos_ronpe_imgs {
+  margin-top: 6rem;
+  text-align: center;
+}
+.conciertos_ronpe_imgs .conciertos_ronpe_titulo {
+  font-family: "Roboto Slab", serif;
+  color: rgba(245, 221, 10, 0.966);
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+.conciertos_ronpe_imgs .conciertos_ronpe_img1 {
+  width: 90vw;
+  height: 20rem;
+  margin-top: 2rem;
+  border: 2px solid black;
+}
+.conciertos_ronpe_imgs .conciertos_ronpe_img2 {
+  width: 90vw;
+  height: 20rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+.conciertos_ronpe_imgs .conciertos_ronpe_img3 {
+  width: 90vw;
+  height: 20rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+.conciertos_ronpe_imgs .conciertos_ronpe_img4 {
+  width: 90vw;
+  height: 20rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+
+@media (min-width: 1024px) {
+  .conciertos_ronpe_div_imgs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-left: 8vw;
+  }
+  .conciertos_ronpe_div_imgs .conciertos_ronpe_img1 {
+    width: 40vw;
+    height: 25rem;
+  }
+  .conciertos_ronpe_div_imgs .conciertos_ronpe_img2 {
+    width: 40vw;
+    height: 25rem;
+    margin-left: -1rem;
+    margin-top: 2rem;
+  }
+  .conciertos_ronpe_div_imgs .conciertos_ronpe_img3 {
+    width: 40vw;
+    height: 25rem;
+  }
+  .conciertos_ronpe_div_imgs .conciertos_ronpe_img4 {
+    width: 40vw;
+    height: 25rem;
+    margin-left: -1rem;
+    position: relative;
+  }
+}
+/*------SECCION CONCIERTOS RONPE VIDEOS-------*/
+.conciertos_ronpe_videos {
+  margin-top: 4rem;
+  text-align: center;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos {
+  margin-top: 1rem;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body {
+  text-align: center;
+  color: whitesmoke;
+  margin-left: -200px;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2 {
+  margin-left: -25px;
+  position: relative;
+  bottom: 1rem;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2- {
+  margin-left: -45px;
+  position: relative;
+  bottom: 1rem;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2-- {
+  margin-left: -57px;
+  position: relative;
+  bottom: 1rem;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2--- {
+  margin-left: -50px;
+  position: relative;
+  bottom: 1rem;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto3 {
+  margin-left: -33px;
+  position: relative;
+  bottom: 2rem;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .bi {
+  color: rgba(245, 221, 10, 0.966);
+}
+.conciertos_ronpe_videos .video_youtube1 {
+  width: 95vw;
+  height: 15rem;
+}
+.conciertos_ronpe_videos .video_youtube2 {
+  margin-top: 1.5rem;
+  width: 95vw;
+  height: 15rem;
+}
+
+@media (min-width: 750px) {
+  .conciertos_ronpe_videos .conciertos_ronpe_videos_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: -2px;
+  }
+  .conciertos_ronpe_videos .video_youtube1 {
+    width: 85vw;
+    height: 600px;
+    margin-top: 5rem;
+  }
+  .conciertos_ronpe_videos .video_youtube2 {
+    width: 85vw;
+    height: 600px;
+  }
+}
+@media (min-width: 1300px) {
+  .conciertos_ronpe_videos .conciertos_ronpe_videos_container {
+    display: flex;
+    justify-content: baseline;
+    gap: 19px;
+  }
+  .conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_video1 {
+    height: 230px;
+    width: 100%;
+  }
+  .conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_video1- {
+    height: 230px;
+  }
+  .conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_body {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+  }
+  .conciertos_ronpe_videos .video_youtube1 {
+    width: 80vw;
+    height: 40vw;
+    margin-top: 4rem;
+  }
+  .conciertos_ronpe_videos .video_youtube2 {
+    width: 80vw;
+    height: 40vw;
+    margin-top: 5rem;
   }
 }
 .canciones-top {

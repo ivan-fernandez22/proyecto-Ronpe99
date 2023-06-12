@@ -2,10 +2,8 @@
 
 
 /*------HEADER------*/
-header {
-    h1 {
-        font-size: -1rem;
-    }
+h1 {
+    font-size: -1rem;
 }
 
 @media (min-width: 1024px) {
@@ -15,4 +13,263 @@ header {
     }
 }
 
-/*-------------*/
+/*------SECCION FOTOS RONPE-------*/
+.fotos_ronpe {
+    .fotos_ronpe_titulo {
+        font-family: 'Roboto Slab', serif;
+        color: $color-principal;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .fotos_ronpe_div {
+        margin-left: 5vw;
+        .fotos_ronpe_img1 {
+            width: 90vw;
+            height: 25rem;
+            margin-top: 1rem;
+            border: 2px solid black;
+        }
+
+        .fotos_ronpe_img2 {
+            width: 90vw;
+            height: 25rem;
+            margin-top: 3rem;
+            border: 2px solid black;
+        }
+
+        .fotos_ronpe_img3 {
+            width: 90vw;
+            height: 25rem;
+            margin-top: 3rem;
+            border: 2px solid black;
+    }
+
+        .fotos_ronpe_img4 {
+            width: 90vw;
+            height: 25rem;
+            margin-top: 3rem;
+            border: 2px solid black;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .fotos_ronpe {
+        .fotos_ronpe_titulo {
+            font-size: 1.8rem;
+        }
+        .fotos_ronpe_div {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            margin-left: 8vw;
+            margin-top: 2rem;
+            .fotos_ronpe_img1 {
+                width: 40vw;
+            }
+            .fotos_ronpe_img2 {
+                width: 40vw;
+                margin-left: -1rem;
+                margin-top: 1.05rem;
+            }
+            .fotos_ronpe_img3 {
+                width: 40vw;
+            }
+            .fotos_ronpe_img4 {
+                width: 40vw;
+                margin-left: -1rem;
+                position: relative;
+            }
+        }
+    }
+}
+
+
+/*------SECCION CONCIERTOS RONPE IMGS-------*/
+.conciertos_ronpe_imgs {
+    margin-top: 6rem;
+    text-align: center;
+
+    .conciertos_ronpe_titulo {
+        font-family: 'Roboto Slab', serif;
+        color: $color-principal;
+        font-size: 1.6rem;
+        margin-top: 3rem;
+    }
+
+    .conciertos_ronpe_img1 {
+        width: 90vw;
+        height: 20rem;
+        margin-top: 2rem;
+        border: 2px solid black;
+    }
+
+    .conciertos_ronpe_img2 {
+        width: 90vw;
+        height: 20rem;
+        margin-top: 3rem;
+        border: 2px solid black;
+    }
+
+    .conciertos_ronpe_img3 {
+        width: 90vw;
+        height: 20rem;
+        margin-top: 3rem;
+        border: 2px solid black;
+    }
+
+    .conciertos_ronpe_img4 {
+        width: 90vw;
+        height: 20rem;
+        margin-top: 3rem;
+        border: 2px solid black;
+    }
+}
+
+@media (min-width: 1024px) {
+    .conciertos_ronpe_div_imgs {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin-left: 8vw;
+
+        .conciertos_ronpe_img1 {
+            width: 40vw;
+            height: 25rem;
+        }
+        .conciertos_ronpe_img2 {
+            width: 40vw;
+            height: 25rem;
+            margin-left: -1rem;
+            margin-top: 2rem;
+        }
+        .conciertos_ronpe_img3 {
+            width: 40vw;
+            height: 25rem;
+        }
+        .conciertos_ronpe_img4 {
+            width: 40vw;
+            height: 25rem;
+            margin-left: -1rem;
+            position: relative;
+        }
+    }
+}
+
+
+
+/*------SECCION CONCIERTOS RONPE VIDEOS-------*/
+.conciertos_ronpe_videos {
+    margin-top: 4rem;
+    text-align: center;
+
+    .conciertos_ronpe_div_videos {
+        margin-top: 1rem;
+        .conciertos_ronpe_body {
+            text-align: center;
+            color: $color-blanco;
+            margin-left: -200px;
+
+            .conciertos_ronpe_texto2 {
+                margin-left: -25px;
+                position: relative;
+                bottom: 1rem;
+            }
+
+            .conciertos_ronpe_texto2- {
+                margin-left: -45px;
+                position: relative;
+                bottom: 1rem;
+            }
+
+            .conciertos_ronpe_texto2-- {
+                margin-left: -57px;
+                position: relative;
+                bottom: 1rem;
+            }
+
+            .conciertos_ronpe_texto2--- {
+                margin-left: -50px;
+                position: relative;
+                bottom: 1rem;
+            }
+
+            .conciertos_ronpe_texto3 {
+                margin-left: -33px;
+                position: relative;
+                bottom: 2rem;
+            }
+
+            .bi {
+                color: $color-principal;
+            }
+        }
+    } 
+
+    .video_youtube1 {
+        width: 95vw;
+        height: 15rem;
+    }
+
+    .video_youtube2 {
+        margin-top: 1.5rem;
+        width: 95vw;
+        height: 15rem;
+    }
+}
+
+
+@media (min-width: 750px) {
+    .conciertos_ronpe_videos {
+        .conciertos_ronpe_videos_container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            justify-content: center;
+            margin-top: 7rem;
+            margin-left: -2px;
+        }
+        .video_youtube1 {
+            width: 85vw;
+            height: 600px;
+            margin-top: 5rem;
+        }
+        .video_youtube2 {
+            width: 85vw;
+            height: 600px;
+        }
+    }
+}
+
+@media (min-width: 1300px) {
+    .conciertos_ronpe_videos {
+        .conciertos_ronpe_videos_container {
+            display: flex;
+            justify-content:baseline;
+            gap: 19px;
+            .conciertos_ronpe_video1 {
+                height: 230px;
+                width: 100%;
+            } 
+            .conciertos_ronpe_video1- {
+                height: 230px
+            }
+            .conciertos_ronpe_body {
+                font-size: 1.1rem;
+                margin-left: 0rem;
+            }
+        }
+        .video_youtube1 {
+            width: 80vw;
+            height: 40vw;
+            margin-top: 4rem;
+        }
+        .video_youtube2 {
+            width: 80vw;
+            height: 40vw;
+            margin-top: 5rem;
+        }
+    }
+}
