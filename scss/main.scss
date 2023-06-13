@@ -3,36 +3,4 @@
 @import "./pages/index";
 @import "./pages/biografia";
 @import "./pages/fotografias";
-
-
-
-
-
-
-
-        .canciones-top {
-        display: flex;
-        width: 400px;
-        height: 300px;
-        background-color:beige ;
-        }
-    
-        section div p {
-        margin-left: 35px;
-        }
-    
-        .section-ep {
-        display: flex;
-        width: 400px;
-        height: 500px;
-        background-color:beige ;
-        margin-top: 30px;
-        }
-    
-        .section-aparece-en {
-        display: flex;
-        width: 400px;
-        height: 300px;
-        background-color:beige;
-        margin-top: 30px;
-        }
+@import "./pages/proximos-conciertos";

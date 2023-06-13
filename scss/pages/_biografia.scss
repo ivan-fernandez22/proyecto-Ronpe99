@@ -73,6 +73,25 @@ h1 {
     }   
 }
 
+@media (min-width: 1500px) {
+    .bio1_container {
+        .bio1_img {
+            width: 37vw;
+            height: 68vh;
+        }
+        .bio1_body {
+            .bio1_titulo {
+                margin-left: -22vw;
+                font-size: 1.8vw;
+            }
+            .bio_texto {
+                font-size: 1.3vw;
+                width: 30vw;
+            }
+        }
+    }   
+}
+
 
 
 /*-----SECCION 2 BIOGRAFIA-------*/
@@ -135,6 +154,25 @@ h1 {
     }
 }
 
+@media (min-width: 1500px) {
+    .bio2_container {
+        .bio2_img {
+            width: 37vw;
+            height: 68vh;
+        }
+        .bio2_body {
+            .bio2_titulo {
+                margin-left: -22vw;
+                font-size: 1.8vw;
+            }
+            .bio_texto {
+                font-size: 1.3vw;
+                width: 30vw;
+            }
+        }
+    }   
+}
+
 
 /*--------SECCION 3 BIOGRAFIA----------*/
 .bio3_container {
@@ -189,4 +227,23 @@ h1 {
             }
         }
     }
+}
+
+@media (min-width: 1500px) {
+    .bio3_container {
+        .bio3_img {
+            width: 37vw;
+            height: 68vh;
+        }
+        .bio3_body {
+            .bio3_titulo {
+                margin-left: -22vw;
+                font-size: 1.8vw;
+            }
+            .bio_texto {
+                font-size: 1.3vw;
+                width: 30vw;
+            }
+        }
+    }   
 }
