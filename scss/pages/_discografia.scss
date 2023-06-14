@@ -1,8 +1,8 @@
 /*---------SECCION CANCIONES TOP--------*/
 .canciones_top {
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
+    margin-top: -4rem;
 
     .canciones_top_titulo {
         font-size: 1.6rem;
@@ -13,7 +13,7 @@
 
     .canciones_top_div {
         width: 90vw;
-        height: 600px;
+        min-height: 600px;
         background: rgb(222,215,196);
         background: linear-gradient(90deg, rgba(222,215,196,1) 0%, rgba(219,215,202,1) 25%, rgba(237,235,229,1) 79%);
         justify-content: center;
@@ -266,7 +266,7 @@
 
 /*------SECCION SINTOMAS---------*/
 .sintomas {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 
@@ -279,7 +279,7 @@
 
     .sintomas_div {
         width: 90vw;
-        height: 520px;
+        min-height: 550px;
         background: rgb(93,3,3);
         background: linear-gradient(90deg, rgba(93,3,3,1) 0%, rgba(134,13,13,1) 44%, rgba(111,72,16,1) 84%);
         text-align: center;
@@ -293,8 +293,6 @@
 
         .sintomas_list {
             margin-left: -25px;
-            position: relative;
-            top: 7px;
 
             .sintomas_item1 {
                 display: flex;
@@ -422,7 +420,7 @@
 
 /*----SECCION APARECE EN-----*/
 .aparece {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 
@@ -435,7 +433,7 @@
 
     .aparece_div {
         width: 90vw;
-        height: 300px;
+        min-height: 300px;
         background: rgb(120,113,14);
         background: linear-gradient(90deg, rgba(120,113,14,1) 0%, rgba(175,158,0,1) 48%, rgba(206,208,39,1) 94%);
         text-align: center;
@@ -569,14 +567,15 @@
         .sintomas {
             .sintomas_div {
                 width: 40vw;
+                min-height: 500px;
             }
         }
         .aparece {
-            margin-top: 5rem;
+            margin-top: 1.8rem;
             .aparece_div {
                 width: 40vw;
-                height: 450px;
-                margin-top: -0.5rem;
+                min-height: 440px;
+
                 .aparece_list {
                     position: relative;
                     top: 70px;
@@ -594,8 +593,8 @@
             }
             .sintomas_div {
                 width: 45vw;
+                min-height: 330px;
                 margin-left: 20vw;
-                height: 350px;
                 .sintomas_list {
                     display: grid;
                     grid-template-columns: 50% 50%;
@@ -603,11 +602,15 @@
             }
         }
         .aparece {
-            margin-top: 5.2rem;
+            margin-top: 2rem;
             .aparece_div {
                 width: 30vw;
-                height: 350px;
+                min-height: 330px;
                 margin-top: -0.5rem;
+                .aparece_list {
+                    position: relative;
+                    top: 20px
+                }
             }
         }
     }
@@ -617,7 +620,7 @@
 
 /*------SECCION CONOCE MAS CANCIONES------*/
 .conoce {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 

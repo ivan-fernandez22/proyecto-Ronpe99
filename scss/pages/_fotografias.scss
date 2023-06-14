@@ -15,40 +15,33 @@ h1 {
 
 /*------SECCION FOTOS RONPE-------*/
 .fotos_ronpe {
-    .fotos_ronpe_titulo {
-        font-family: 'Roboto Slab', serif;
-        color: $color-principal;
-        font-size: 1.6rem;
-        text-align: center;
-        margin-top: 3rem;
-    }
-
+    margin-top: rem;
     .fotos_ronpe_div {
         margin-left: 5vw;
         .fotos_ronpe_img1 {
             width: 90vw;
-            height: 25rem;
+            height: 20rem;
             margin-top: 1rem;
             border: 2px solid black;
         }
 
         .fotos_ronpe_img2 {
             width: 90vw;
-            height: 25rem;
+            height: 20rem;
             margin-top: 3rem;
             border: 2px solid black;
         }
 
         .fotos_ronpe_img3 {
             width: 90vw;
-            height: 25rem;
+            height: 20rem;
             margin-top: 3rem;
             border: 2px solid black;
     }
 
         .fotos_ronpe_img4 {
             width: 90vw;
-            height: 25rem;
+            height: 20rem;
             margin-top: 3rem;
             border: 2px solid black;
         }
@@ -68,17 +61,21 @@ h1 {
             margin-top: 2rem;
             .fotos_ronpe_img1 {
                 width: 40vw;
+                height: 50vh;
             }
             .fotos_ronpe_img2 {
                 width: 40vw;
+                height: 50vh;
                 margin-left: -1rem;
                 margin-top: 1.05rem;
             }
             .fotos_ronpe_img3 {
                 width: 40vw;
+                height: 50vh;
             }
             .fotos_ronpe_img4 {
                 width: 40vw;
+                height: 50vh;
                 margin-left: -1rem;
                 position: relative;
             }

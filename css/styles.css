@@ -96,9 +96,7 @@ header h1 {
 .texto_Minibiografia {
   font-family: "Hind Madurai", sans-serif;
   font-size: 1.1rem;
-  position: relative;
-  top: -2rem;
-  left: -15px;
+  margin-left: 3vw;
   width: 90%;
   text-align: center;
   color: whitesmoke;
@@ -106,8 +104,8 @@ header h1 {
 
 .seguir_leyendo_div {
   text-align: center;
-  position: relative;
-  bottom: 3.5rem;
+  margin-top: -1rem;
+  margin-left: -7vw;
 }
 .seguir_leyendo_div .seguir_leyendo {
   font-family: "Hind Madurai", sans-serif;
@@ -153,7 +151,7 @@ header h1 {
   background: rgb(73, 72, 67);
   background: linear-gradient(90deg, rgb(73, 72, 67) 0%, rgb(101, 99, 74) 26%, rgb(185, 184, 173) 80%);
   border: solid black;
-  height: 500px;
+  min-height: 510px;
   width: 90vw;
   gap: 10px;
   margin-left: 4.5vw;
@@ -206,7 +204,7 @@ header h1 {
 }
 
 .ult_lanzamiento_div {
-  height: 8rem;
+  height: 140px;
   width: 95vw;
   background: rgb(45, 37, 14);
   background: linear-gradient(90deg, rgb(45, 37, 14) 0%, rgb(148, 141, 55) 40%, rgb(196, 181, 12) 80%);
@@ -291,15 +289,15 @@ header h1 {
   width: 90vw;
   margin-left: 5vw;
   margin-top: 2rem;
-  background-color: rgb(170, 146, 146);
-  box-shadow: 4px 3px 2px 2px rgba(245, 221, 10, 0.966);
+  background: rgb(190, 181, 26);
+  background: linear-gradient(0deg, rgb(190, 181, 26) 10%, rgb(175, 172, 13) 42%, rgb(111, 109, 55) 72%);
   position: relative;
   bottom: 1rem;
+  border: 2px solid black;
 }
 .tarjetas .tarjeta1_div .tarjetas_img {
   width: 100%;
   height: 200px;
-  border: 2px solid black;
 }
 .tarjetas .tarjeta1_div .tarjetas_body {
   padding: 1rem;
@@ -314,9 +312,6 @@ header h1 {
   color: beige;
   font-family: "Hind Madurai";
   font-size: 1.4rem;
-  position: relative;
-  left: -30px;
-  top: 1rem;
 }
 .tarjetas .tarjeta1_div .tarjetas_body .tarjetas_reproductor {
   background-color: black;
@@ -325,6 +320,7 @@ header h1 {
   margin-top: 0.5rem;
 }
 .tarjetas .tarjeta1_div .tarjetas_body .tarjetas_body_letra {
+  color: whitesmoke;
   margin-left: 0vw;
   margin-top: 1rem;
   font-size: 0.8rem;
@@ -334,13 +330,13 @@ header h1 {
   width: 90vw;
   margin-left: 5vw;
   margin-top: 2rem;
-  background-color: rgb(170, 146, 146);
-  box-shadow: 4px 3px 2px 2px rgba(245, 221, 10, 0.966);
+  background: rgb(190, 181, 26);
+  background: linear-gradient(0deg, rgb(190, 181, 26) 10%, rgb(175, 172, 13) 42%, rgb(111, 109, 55) 72%);
+  border: 2px solid black;
 }
 .tarjetas .tarjeta2_div .tarjetas_img {
   width: 100%;
   height: 200px;
-  border: 2px solid black;
 }
 .tarjetas .tarjeta2_div .tarjetas_body {
   padding: 1rem;
@@ -355,9 +351,6 @@ header h1 {
   color: beige;
   font-family: "Hind Madurai";
   font-size: 1.4rem;
-  position: relative;
-  left: -30px;
-  top: 1rem;
 }
 .tarjetas .tarjeta2_div .tarjetas_body .tarjetas_reproductor {
   background-color: black;
@@ -366,6 +359,7 @@ header h1 {
   margin-top: 0.5rem;
 }
 .tarjetas .tarjeta2_div .tarjetas_body .tarjetas_body_letra {
+  color: whitesmoke;
   margin-left: 0vw;
   margin-top: 1rem;
   font-size: 0.8rem;
@@ -376,13 +370,13 @@ header h1 {
   width: 90vw;
   margin-left: 5vw;
   margin-top: 3rem;
-  background-color: rgb(170, 146, 146);
-  box-shadow: 4px 3px 2px 2px rgba(245, 221, 10, 0.966);
+  background: rgb(190, 181, 26);
+  background: linear-gradient(0deg, rgb(190, 181, 26) 10%, rgb(175, 172, 13) 42%, rgb(111, 109, 55) 72%);
+  border: 2px solid black;
 }
 .tarjeta3_div .tarjetas_img {
   width: 100%;
   height: 200px;
-  border: 2px solid black;
   object-fit: cover;
 }
 .tarjeta3_div .tarjetas_body {
@@ -398,9 +392,6 @@ header h1 {
   color: beige;
   font-family: "Hind Madurai";
   font-size: 1.4rem;
-  position: relative;
-  left: -30px;
-  top: 1rem;
 }
 .tarjeta3_div .tarjetas_body .tarjetas_reproductor {
   background-color: black;
@@ -409,6 +400,7 @@ header h1 {
   margin-top: 0.5rem;
 }
 .tarjeta3_div .tarjetas_body .tarjetas_body_letra {
+  color: whitesmoke;
   margin-left: 0vw;
   margin-top: 1rem;
   font-size: 0.77rem;
@@ -817,37 +809,33 @@ h1 {
   }
 }
 /*------SECCION FOTOS RONPE-------*/
-.fotos_ronpe .fotos_ronpe_titulo {
-  font-family: "Roboto Slab", serif;
-  color: rgba(245, 221, 10, 0.966);
-  font-size: 1.6rem;
-  text-align: center;
-  margin-top: 3rem;
+.fotos_ronpe {
+  margin-top: rem;
 }
 .fotos_ronpe .fotos_ronpe_div {
   margin-left: 5vw;
 }
 .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img1 {
   width: 90vw;
-  height: 25rem;
+  height: 20rem;
   margin-top: 1rem;
   border: 2px solid black;
 }
 .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img2 {
   width: 90vw;
-  height: 25rem;
+  height: 20rem;
   margin-top: 3rem;
   border: 2px solid black;
 }
 .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img3 {
   width: 90vw;
-  height: 25rem;
+  height: 20rem;
   margin-top: 3rem;
   border: 2px solid black;
 }
 .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img4 {
   width: 90vw;
-  height: 25rem;
+  height: 20rem;
   margin-top: 3rem;
   border: 2px solid black;
 }
@@ -865,17 +853,21 @@ h1 {
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img1 {
     width: 40vw;
+    height: 50vh;
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img2 {
     width: 40vw;
+    height: 50vh;
     margin-left: -1rem;
     margin-top: 1.05rem;
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img3 {
     width: 40vw;
+    height: 50vh;
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img4 {
     width: 40vw;
+    height: 50vh;
     margin-left: -1rem;
     position: relative;
   }
@@ -1052,7 +1044,8 @@ header .titulo_prox_conciertos {
 h2 {
   font-family: "Roboto Slab", serif;
   font-size: 1.8rem;
-  color: whitesmoke;
+  color: rgba(245, 221, 10, 0.966);
+  margin-top: 5rem;
   text-align: center;
   padding: 10px;
 }
@@ -1556,104 +1549,11 @@ h2 {
     right: -8rem;
   }
 }
-/*------SECCION TARJETA METODOS DE PAGO-------*/
-.titulo_pagos {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.8rem;
-  color: whitesmoke;
-  text-align: center;
-  padding: 10px;
-  margin-top: 4rem;
-}
-
-.tarjeta_pagos {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.tarjeta_pagos .tarjeta_pagos_div {
-  width: 90vw;
-  background: rgb(136, 117, 60);
-  background: linear-gradient(90deg, rgb(136, 117, 60) 0%, rgb(186, 184, 161) 40%, rgb(190, 187, 150) 79%);
-  border: 2px solid black;
-}
-.tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_img {
-  width: 100%;
-  height: 200px;
-}
-.tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_body .tarjeta_pagos_list {
-  font-size: 1.1rem;
-  font-family: "Hind Madurai";
-  margin-top: 1rem;
-  position: relative;
-  right: 20px;
-}
-.tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_body .tarjeta_pagos_list .bi-cash-coin {
-  color: green;
-  position: relative;
-  top: 3px;
-}
-.tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_body .tarjeta_pagos_list .fa-handshake-o {
-  color: darkturquoise;
-}
-
-@media (min-width: 550px) {
-  .tarjeta_pagos .tarjeta_pagos_div {
-    width: 80vw;
-    display: grid;
-    grid-template-columns: 40% 60%;
-  }
-  .tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_img {
-    width: 100%;
-    height: 250px;
-  }
-  .tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_body .tarjeta_pagos_list {
-    font-size: 1.6rem;
-    font-family: "Hind Madurai";
-    margin-top: 3rem;
-    margin-left: 0.5rem;
-  }
-}
-@media (min-width: 900px) {
-  .tarjeta_pagos .tarjeta_pagos_div {
-    width: 60vw;
-    display: grid;
-    grid-template-columns: 40% 60%;
-  }
-  .tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_img {
-    width: 100%;
-    height: 250px;
-  }
-  .tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_body .tarjeta_pagos_list {
-    font-size: 1.7rem;
-    font-family: "Hind Madurai";
-    margin-top: 2.5rem;
-    margin-left: 1rem;
-  }
-}
-@media (min-width: 1400px) {
-  .tarjeta_pagos .tarjeta_pagos_div {
-    width: 30vw;
-    height: 230px;
-    display: grid;
-    grid-template-columns: 40% 60%;
-  }
-  .tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_img {
-    width: 100%;
-    height: 226px;
-  }
-  .tarjeta_pagos .tarjeta_pagos_div .tarjeta_pagos_body .tarjeta_pagos_list {
-    font-size: 1.7rem;
-    font-family: "Hind Madurai";
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
-}
 /*---------SECCION CANCIONES TOP--------*/
 .canciones_top {
-  margin-top: 2rem;
   display: flex;
   justify-content: center;
+  margin-top: -4rem;
 }
 .canciones_top .canciones_top_titulo {
   font-size: 1.6rem;
@@ -1663,7 +1563,7 @@ h2 {
 }
 .canciones_top .canciones_top_div {
   width: 90vw;
-  height: 600px;
+  min-height: 600px;
   background: rgb(222, 215, 196);
   background: linear-gradient(90deg, rgb(222, 215, 196) 0%, rgb(219, 215, 202) 25%, rgb(237, 235, 229) 79%);
   justify-content: center;
@@ -1895,7 +1795,7 @@ h2 {
 }
 /*------SECCION SINTOMAS---------*/
 .sintomas {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -1907,7 +1807,7 @@ h2 {
 }
 .sintomas .sintomas_div {
   width: 90vw;
-  height: 520px;
+  min-height: 550px;
   background: rgb(93, 3, 3);
   background: linear-gradient(90deg, rgb(93, 3, 3) 0%, rgb(134, 13, 13) 44%, rgb(111, 72, 16) 84%);
   text-align: center;
@@ -1920,8 +1820,6 @@ h2 {
 }
 .sintomas .sintomas_div .sintomas_list {
   margin-left: -25px;
-  position: relative;
-  top: 7px;
 }
 .sintomas .sintomas_div .sintomas_list .sintomas_item1 {
   display: flex;
@@ -2040,7 +1938,7 @@ h2 {
 
 /*----SECCION APARECE EN-----*/
 .aparece {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -2052,7 +1950,7 @@ h2 {
 }
 .aparece .aparece_div {
   width: 90vw;
-  height: 300px;
+  min-height: 300px;
   background: rgb(120, 113, 14);
   background: linear-gradient(90deg, rgb(120, 113, 14) 0%, rgb(175, 158, 0) 48%, rgb(206, 208, 39) 94%);
   text-align: center;
@@ -2174,14 +2072,14 @@ h2 {
   }
   .container_sintomas_aparece .sintomas .sintomas_div {
     width: 40vw;
+    min-height: 500px;
   }
   .container_sintomas_aparece .aparece {
-    margin-top: 5rem;
+    margin-top: 1.8rem;
   }
   .container_sintomas_aparece .aparece .aparece_div {
     width: 40vw;
-    height: 450px;
-    margin-top: -0.5rem;
+    min-height: 440px;
   }
   .container_sintomas_aparece .aparece .aparece_div .aparece_list {
     position: relative;
@@ -2194,25 +2092,29 @@ h2 {
   }
   .container_sintomas_aparece .sintomas .sintomas_div {
     width: 45vw;
+    min-height: 330px;
     margin-left: 20vw;
-    height: 350px;
   }
   .container_sintomas_aparece .sintomas .sintomas_div .sintomas_list {
     display: grid;
     grid-template-columns: 50% 50%;
   }
   .container_sintomas_aparece .aparece {
-    margin-top: 5.2rem;
+    margin-top: 2rem;
   }
   .container_sintomas_aparece .aparece .aparece_div {
     width: 30vw;
-    height: 350px;
+    min-height: 330px;
     margin-top: -0.5rem;
+  }
+  .container_sintomas_aparece .aparece .aparece_div .aparece_list {
+    position: relative;
+    top: 20px;
   }
 }
 /*------SECCION CONOCE MAS CANCIONES------*/
 .conoce {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
