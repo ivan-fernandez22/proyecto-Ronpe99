@@ -13,7 +13,7 @@
 
     .canciones_top_div {
         width: 90vw;
-        min-height: 600px;
+        min-height: 630px;
         background: rgb(222,215,196);
         background: linear-gradient(90deg, rgba(222,215,196,1) 0%, rgba(219,215,202,1) 25%, rgba(237,235,229,1) 79%);
         justify-content: center;
@@ -21,193 +21,197 @@
             position: relative;
             top: 7px;
             justify-content: center;
-
-            .canciones_top_item1 {
-                display: flex;
-                justify-content: center;
-                margin-left: -5rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
+            .canciones_top_list_container {
+                position: relative;
+                top: 1rem;
+                .canciones_top_item1 {
+                    display: flex;
+                    justify-content: center;
+                    margin-left: -5rem;
                     position: relative;
-                    top: 6px;
-                    margin-left: 16px;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 39px
+                    }
                 }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 39px
+    
+                .canciones_top_item2 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -8rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 88px
+                    }
                 }
-            }
-
-            .canciones_top_item2 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -8rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
+    
+                .canciones_top_item3 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -9rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 103px
+                    }
                 }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 88px
+    
+                .canciones_top_item4 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -9.6rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 113px
+                    }
                 }
-            }
-
-            .canciones_top_item3 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -9rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
+    
+                .canciones_top_item5 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -11.5rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 143px
+                    }
                 }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 103px
+    
+                .canciones_top_item6 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -10.2rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 123px
+                    }
                 }
-            }
-
-            .canciones_top_item4 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -9.6rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
+    
+                .canciones_top_item7 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -7.6rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 82px
+                    }
                 }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 113px
+    
+                .canciones_top_item8 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -8.2rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 90px
+                    }
                 }
-            }
-
-            .canciones_top_item5 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -11.5rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
+    
+                .canciones_top_item9 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -10.7rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 132px
+                    }
                 }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 143px
-                }
-            }
-
-            .canciones_top_item6 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -10.2rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
-                }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 123px
-                }
-            }
-
-            .canciones_top_item7 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -7.6rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
-                }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 82px
-                }
-            }
-
-            .canciones_top_item8 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -8.2rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
-                }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 90px
-                }
-            }
-
-            .canciones_top_item9 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -10.7rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
-                }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 132px
-                }
-            }
-
-            .canciones_top_item10 {
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                margin-left: -8.9rem;
-                .canciones_top_texto {
-                    font-family: 'Hind Madurai';
-                    font-size: 1.1rem;
-                    position: relative;
-                    top: 6px;
-                    margin-left: 16px;
-                }
-                .canciones_top_audio {
-                    width: 50px;
-                    position: relative;
-                    left: 102px
+    
+                .canciones_top_item10 {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    margin-left: -8.9rem;
+                    .canciones_top_texto {
+                        font-family: 'Hind Madurai';
+                        font-size: 1.1rem;
+                        position: relative;
+                        top: 6px;
+                        margin-left: 16px;
+                    }
+                    .canciones_top_audio {
+                        width: 50px;
+                        position: relative;
+                        left: 102px
+                    }
                 }
             }
         }
@@ -218,18 +222,20 @@
     .canciones_top {
         .canciones_top_div {
             width: 90vw;
-            height: 310px;
+            min-height: 370px;
             .canciones_top_list {
-                display: grid;
-                grid-template-columns: 50% 50%;
-                .canciones_top_item1 {
-                    position: relative;
-                    top: 16px;
-                    .canciones_top_audio {
-                        margin-bottom: 1rem;
-                    }
-                    .canciones_top_portada {
-                        height: 40px
+                .canciones_top_list_container {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    .canciones_top_item1 {
+                        position: relative;
+                        top: 16px;
+                        .canciones_top_audio {
+                            margin-bottom: 1rem;
+                        }
+                        .canciones_top_portada {
+                            height: 40px
+                        }
                     }
                 }
             }
@@ -241,7 +247,7 @@
     .canciones_top {
         .canciones_top_div {
             width: 80vw;
-            height: 400px;
+            min-height: 370px;
             .canciones_top_list {
                 gap: 20px;
             }
@@ -279,7 +285,7 @@
 
     .sintomas_div {
         width: 90vw;
-        min-height: 550px;
+        min-height: 560px;
         background: rgb(93,3,3);
         background: linear-gradient(90deg, rgba(93,3,3,1) 0%, rgba(134,13,13,1) 44%, rgba(111,72,16,1) 84%);
         text-align: center;
@@ -433,7 +439,7 @@
 
     .aparece_div {
         width: 90vw;
-        min-height: 300px;
+        min-height: 330px;
         background: rgb(120,113,14);
         background: linear-gradient(90deg, rgba(120,113,14,1) 0%, rgba(175,158,0,1) 48%, rgba(206,208,39,1) 94%);
         text-align: center;

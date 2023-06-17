@@ -5,10 +5,11 @@ header {
     align-items: center;
     background-color: white;
     height: 7rem;
+    overflow: hidden;
 
     .caja-logo-ronpe {
         margin-left: 1rem;
-        width: 4rem;
+        max-width: 4rem;
         height: 4rem;
     }
 
@@ -25,6 +26,7 @@ header {
         .caja-logo-ronpe {
             margin-left: 3rem;
         }
+
         h1 {
             font-size: 2.5rem;
         }
@@ -37,6 +39,7 @@ header {
 /*------------NAV----------*/
 
 .nav_list {
+    overflow: hidden;
     font-family: 'Roboto Slab', serif;
     display: flexbox;
     text-align: center;
@@ -44,9 +47,11 @@ header {
     padding: 10px;
     list-style: none;
     background-color: black;
+
     .nav_links {
         text-decoration: none;
         color: yellow;
+
         &:hover {
             font-size: 1.4rem;
             text-decoration: underline;
@@ -54,7 +59,7 @@ header {
     }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 675px) {
     .nav_list {
         display: flex;
         justify-content: space-between;
@@ -62,10 +67,20 @@ header {
         height: 5rem;
         padding: 50px;
         .nav_links {
-            font-size: 1.6rem;
+            font-size: 1.3rem;
             &:hover {
-                font-size: 1.7rem;
-                text-decoration: underline;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav_list {
+        .nav_links {
+            font-size: 1.5rem;
+            &:hover {
+                font-size: 1.6rem;
             }
         }
     }
@@ -73,11 +88,11 @@ header {
 
 
 /*------ESTRUCTURA SITIO DESKTOP------*/
-@media (min-width: 1024px) {
-.estructura-sitio{
-    display: grid;
-    grid-template-columns: 45% 45%;
-}
+@media (min-width: 675px) {
+    .estructura-sitio {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
 }
 
 
@@ -85,60 +100,65 @@ header {
 
 .carousel {
     margin-left: 5vw;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
-    width: 90vw;
-    position: relative;
-    bottom: 1rem;
+    max-width: 90vw;
 }
 
-.texto_Minibiografia {
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 1.1rem;
-    margin-left: 3vw;
-    width: 90%;
-    text-align: center;
-    color: $color-blanco
-}
-
-.seguir_leyendo_div{
-text-align: center;
-margin-top: -1rem;
-margin-left: -7vw;
-
-    .seguir_leyendo {
+.minibiografia {
+    .texto_minibiografia {
         font-family: 'Hind Madurai', sans-serif;
-        list-style: none;
-        text-decoration: none;
         font-size: 1.1rem;
-        &:hover {
-            font-size: 1.3rem;
+        margin-left: 3vw;
+        max-width: 90%;
+        text-align: center;
+        color: $color-blanco;
+
+        .seguir_leyendo {
+            font-family: 'Hind Madurai', sans-serif;
+            list-style: none;
+            text-decoration: none;
+            font-size: 1.1rem;
+    
+            &:hover {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 675px) {
+    .carousel {
+        margin-left: 2rem;
+        margin-top: 3rem;
+        width: 40vw;
+    }
+    .minibiografia {
+        .texto_minibiografia {
+            font-family: 'Hind Madurai', sans-serif;
+            font-size: 1.2rem;
+            text-align: center;
+            color: $color-blanco;
+            position: relative;
+            bottom: 30px;
+            .seguir_leyendo {
+                font-size: 1.2rem;
+                &:hover {
+                    font-size: 1.3rem;
+                }
+            }
         }
     }
 }
 
 @media (min-width: 1024px) {
-.carousel {
-    margin-left: 2rem;
-    margin-top: 3rem;
-    width: 40vw;
-}
-
-.texto-Minibiografia {
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 1.3rem;
-    text-align: center;
-    color: $color-blanco
-}
-
-.seguir-leyendo_div {
-    position: relative;
-    left: 2rem;
-
-    .seguir_leyendo {
-        font-size: 1.3rem;
+    .minibiografia {
+        .texto_minibiografia {
+            position: relative;
+            left: -1.2vw;
+        }
     }
-}
 }
 
 
@@ -155,24 +175,24 @@ margin-left: -7vw;
     }
 
     .canciones_populares_container {
-        background: rgb(73,72,67);
-        background: linear-gradient(90deg, rgba(73,72,67,1) 0%, 
-        rgba(101,99,74,1) 26%, rgba(185,184,173,1) 80%);
+        background: rgb(45, 37, 14);
+        background: linear-gradient(90deg, rgba(45, 37, 14, 1) 0%, rgba(148, 141, 55, 1) 40%, rgba(196, 181, 12, 1) 80%);
         border: solid black;
-        min-height: 510px;
-        width: 90vw;
+        min-height: 500px;
+        max-width: 90vw;
         gap: 10px;
         margin-left: 4.5vw;
         margin-top: 0.5rem;
+        overflow:hidden;
 
         .canciones_populares_div {
+            max-width: 90%;
             border-radius: 10px;
             background: black;
-            width: 95%;
             margin-top: 1rem;
+            margin-left: 2.5vw;
             text-align: center;
             justify-content: center;
-            margin-left: 2vw;
 
             .canciones_populares_nombreTema {
                 font-size: 1.2rem;
@@ -188,10 +208,10 @@ margin-left: -7vw;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 675px) {
     .canciones_populares_section {
-        position:absolute;
-        top: 240px;
+        position: absolute;
+        top: 150px;
         left: 42.5vw;
 
         .canciones_populares_titulo {
@@ -203,8 +223,6 @@ margin-left: -7vw;
 
         .canciones_populares_container {
             width: 50vw;
-            height: 500px;
-            overflow: hidden;
         }
     }
 }
@@ -223,8 +241,8 @@ margin-left: -7vw;
 .ult_lanzamiento_div {
     height: 140px;
     width: 95vw;
-    background: rgb(45,37,14);
-    background: linear-gradient(90deg, rgba(45,37,14,1) 0%, rgba(148,141,55,1) 40%, rgba(196,181,12,1) 80%);
+    background: rgb(45, 37, 14);
+    background: linear-gradient(90deg, rgba(45, 37, 14, 1) 0%, rgba(148, 141, 55, 1) 40%, rgba(196, 181, 12, 1) 80%);
     border: solid black;
     margin-left: 2.5vw;
 
@@ -239,17 +257,20 @@ margin-left: -7vw;
         position: relative;
         bottom: 5.5rem;
         left: 7rem;
+
         .ult_lanzamiento_nombre {
             font-family: 'Hind Madurai';
             font-size: 1.5rem;
             margin-left: 0.3rem;
-            }
+        }
+
         .ult_lanzamiento_fecha {
             font-family: 'Hind Madurai';
             font-size: 1rem;
             margin-top: -0.8rem;
             margin-left: 0.5rem;
-            }
+        }
+
         .ult_lanzamiento_reproductor {
             margin-top: -10px;
             margin-left: 10px;
@@ -259,13 +280,24 @@ margin-left: -7vw;
     }
 }
 
+@media (min-width: 675px) {
+    .ult_lanzamiento_titulo {
+        margin-top: 2rem;
+    }
+
+    .ult_lanzamiento_titulo {
+        font-size: 1.5rem;
+    }
+}
+
+
 @media (min-width: 1024px) {
     .ult_lanzamiento_titulo {
-    font-size: 1.5rem;
-    text-align: start;
-    margin-left: 2.8vw;
-    color: $color-principal;
-}
+        font-size: 1.5rem;
+        text-align: start;
+        margin-left: 2.8vw;
+        color: $color-principal;
+    }
 
     .ult_lanzamiento_div {
         height: 160px;
@@ -281,20 +313,23 @@ margin-left: -7vw;
         .ult_lanzamiento_body {
             margin-left: 6vw;
             margin-top: -2.3rem;
+
             .ult_lanzamiento_nombre {
                 font-size: 1.8rem;
                 color: black;
             }
+
             .ult_lanzamiento_fecha {
                 font-size: 1rem;
                 color: black;
                 margin-top: -0.5rem;
             }
+
             .ult_lanzamiento_reproductor {
                 margin-top: 0px;
                 width: 60%;
             }
-        } 
+        }
     }
 }
 
@@ -315,8 +350,8 @@ margin-left: -7vw;
         width: 90vw;
         margin-left: 5vw;
         margin-top: 2rem;
-        background: rgb(190,181,26);
-        background: linear-gradient(0deg, rgba(190,181,26,1) 10%, rgba(175,172,13,1) 42%, rgba(111,109,55,1) 72%);
+        background: rgb(190, 181, 26);
+        background: linear-gradient(0deg, rgba(190, 181, 26, 1) 10%, rgba(175, 172, 13, 1) 42%, rgba(111, 109, 55, 1) 72%);
         position: relative;
         bottom: 1rem;
         border: 2px solid black;
@@ -343,7 +378,6 @@ margin-left: -7vw;
             }
 
             .tarjetas_reproductor {
-                background-color: black;
                 width: 100%;
                 border-radius: 20px;
                 margin-top: 0.5rem;
@@ -363,8 +397,8 @@ margin-left: -7vw;
         width: 90vw;
         margin-left: 5vw;
         margin-top: 2rem;
-        background: rgb(190,181,26);
-        background: linear-gradient(0deg, rgba(190,181,26,1) 10%, rgba(175,172,13,1) 42%, rgba(111,109,55,1) 72%);
+        background: rgb(190, 181, 26);
+        background: linear-gradient(0deg, rgba(190, 181, 26, 1) 10%, rgba(175, 172, 13, 1) 42%, rgba(111, 109, 55, 1) 72%);
         border: 2px solid black;
 
         .tarjetas_img {
@@ -389,7 +423,6 @@ margin-left: -7vw;
             }
 
             .tarjetas_reproductor {
-                background-color: black;
                 width: 100%;
                 border-radius: 20px;
                 margin-top: 0.5rem;
@@ -406,78 +439,74 @@ margin-left: -7vw;
     }
 }
 
-    .tarjeta3_div {
-        width: 90vw;
-        margin-left: 5vw;
-        margin-top: 3rem;
-        background: rgb(190,181,26);
-        background: linear-gradient(0deg, rgba(190,181,26,1) 10%, rgba(175,172,13,1) 42%, rgba(111,109,55,1) 72%);
-        border: 2px solid black;
+.tarjeta3_div {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 3rem;
+    background: rgb(190, 181, 26);
+    background: linear-gradient(0deg, rgba(190, 181, 26, 1) 10%, rgba(175, 172, 13, 1) 42%, rgba(111, 109, 55, 1) 72%);
+    border: 2px solid black;
 
-        .tarjetas_img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .tarjetas_body {
-            padding: 1rem;
-
-            .tarjetas_body_nombreCancion {
-                color: $color-beige;
-                font-family: 'Hind Madurai';
-                font-size: 1.9rem;
-                text-align: center;
-            }
-
-            .tarjetas_body_fechaDeLanzamiento {
-                color: $color-beige;
-                font-family: 'Hind Madurai';
-                font-size: 1.4rem;
-            }
-
-            .tarjetas_reproductor {
-                background-color: black;
-                width: 100%;
-                border-radius: 20px;
-                margin-top: 0.5rem;
-            }
-
-            .tarjetas_body_letra {
-                color: $color-blanco;
-                margin-left: 0vw;
-                margin-top: 1rem;
-                font-size: 0.77rem;
-                font-family: 'Hind Madurai';
-            }
-        }
+    .tarjetas_img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
     }
 
-@media (min-width: 1024px) {
-    .tarjetas {
-        .tarjetas_titulo {
-            font-size: 1.5rem;
-            text-align: start;
-            margin-left: 3vw;
+    .tarjetas_body {
+        padding: 1rem;
+
+        .tarjetas_body_nombreCancion {
+            color: $color-beige;
+            font-family: 'Hind Madurai';
+            font-size: 1.9rem;
+            text-align: center;
         }
 
+        .tarjetas_body_fechaDeLanzamiento {
+            color: $color-beige;
+            font-family: 'Hind Madurai';
+            font-size: 1.4rem;
+        }
+
+        .tarjetas_reproductor {
+            width: 100%;
+            border-radius: 20px;
+            margin-top: 0.5rem;
+        }
+
+        .tarjetas_body_letra {
+            color: $color-blanco;
+            margin-left: 0vw;
+            margin-top: 1rem;
+            font-size: 0.77rem;
+            font-family: 'Hind Madurai';
+        }
+    }
+}
+
+@media (min-width: 775px) {
+    .tarjetas {
+        .tarjetas_titulo {
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.5rem;
+            text-align: center;
+            color: $color-principal;
+        }
         .tarjetas_div_estructura {
             display: grid;
             grid-template-columns: 33% 33% 33%;
             margin-top: -1rem;
-
             .tarjeta1_div {
                 width: 30vw;
                 margin-left: 3vw;
                 position: relative;
                 top: 0rem;
             }
-
             .tarjeta2_div {
                 width: 30vw;
                 margin-left: 2vw;
             }
-
             .tarjeta3_div {
                 width: 30vw;
                 margin-left: 1vw;
@@ -487,17 +516,27 @@ margin-left: -7vw;
     }
 }
 
+@media (min-width: 1024px) {
+    .tarjetas {
+        .tarjetas_titulo {
+            font-size: 1.5rem;
+            text-align: start;
+            margin-left: 3vw;
+        }
+    }
+}
+
 /*------------------------FOOTER-------------------------*/
 
 footer {
     background-color: black;
-    display:grid;
+    display: grid;
     grid-template-columns: 60% 40%;
     justify-content: space-between;
     margin-top: 7rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 675px) {
     footer {
         background-color: black;
         display: flex;
@@ -530,6 +569,7 @@ footer {
         .redes_link_facebook {
             text-decoration: none;
             color: $color-beige;
+
             &:hover {
                 color: cornflowerblue;
             }
@@ -538,6 +578,7 @@ footer {
         .redes_link_instagram {
             text-decoration: none;
             color: $color-beige;
+
             &:hover {
                 color: #833AB4;
             }
@@ -546,6 +587,7 @@ footer {
         .redes_link_twitter {
             text-decoration: none;
             color: $color-beige;
+
             &:hover {
                 color: deepskyblue;
             }
@@ -554,6 +596,7 @@ footer {
         .redes_link_youtube {
             text-decoration: none;
             color: $color-beige;
+
             &:hover {
                 color: #c4302b;
             }
@@ -589,7 +632,7 @@ footer {
             font-size: 1.3rem;
             margin-left: 25px;
         }
-    
+
         .redes_list {
             font-size: 1.1rem;
         }
@@ -611,14 +654,14 @@ footer {
         color: $color-principal;
     }
 
-    .nav_footer_list{
+    .nav_footer_list {
         position: relative;
         bottom: 0.6rem;
         color: $color-principal;
 
         .nav_footer_links {
             text-decoration: none;
-            color:$color-beige;
+            color: $color-beige;
             font-family: 'Hind Madurai';
         }
     }
@@ -628,6 +671,7 @@ footer {
     .nav_footer_div {
         font-size: 1.1rem;
         margin-left: 7vw;
+
         .nav_footer_titulo {
             font-size: 1.3rem;
             margin-left: 15px;
@@ -660,12 +704,27 @@ footer {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 675px) {
     .mail_footer_div {
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-left: 7vw;
         margin-top: 0.7rem;
+
         .mail_footer_texto {
+            font-size: 1rem;
+            margin-top: -4px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .mail_footer_div {
+        font-size: 0.7rem;
+        margin-left: 7vw;
+        margin-top: 0.7rem;
+
+        .mail_footer_texto {
+            font-size: 1.2rem;
             position: relative;
             top: 0.5rem;
         }
