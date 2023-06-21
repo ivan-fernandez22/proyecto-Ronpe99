@@ -11,7 +11,6 @@
 
 body {
   background-color: #212121;
-  overflow-x: hidden;
 }
 
 /*---------------------HEADER----------------*/
@@ -20,7 +19,6 @@ header {
   align-items: center;
   background-color: white;
   height: 7rem;
-  overflow: hidden;
 }
 header .caja-logo-ronpe {
   margin-left: 1rem;
@@ -226,6 +224,7 @@ header h1 {
   height: 5.5rem;
 }
 .ult_lanzamiento_div .ult_lanzamiento_body {
+  width: 63%;
   position: relative;
   bottom: 5.5rem;
   left: 7rem;
@@ -886,21 +885,21 @@ h1 {
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img1 {
     width: 40vw;
-    height: 50vh;
+    height: 25rem;
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img2 {
     width: 40vw;
-    height: 50vh;
+    height: 25rem;
     margin-left: -1rem;
     margin-top: 1.05rem;
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img3 {
     width: 40vw;
-    height: 50vh;
+    height: 25rem;
   }
   .fotos_ronpe .fotos_ronpe_div .fotos_ronpe_img4 {
     width: 40vw;
-    height: 50vh;
+    height: 25rem;
     margin-left: -1rem;
     position: relative;
   }
@@ -974,40 +973,45 @@ h1 {
   margin-top: 4rem;
   text-align: center;
 }
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos {
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos {
   margin-top: 1rem;
-}
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body {
   text-align: center;
-  color: whitesmoke;
-  margin-left: -200px;
 }
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2 {
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body {
+  width: 100%;
+  color: whitesmoke;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2 {
+  margin-left: -15px;
+  position: relative;
+  bottom: 1rem;
+  width: 100%;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2- {
   margin-left: -25px;
   position: relative;
   bottom: 1rem;
+  width: 100%;
 }
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2- {
-  margin-left: -45px;
-  position: relative;
-  bottom: 1rem;
-}
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2-- {
-  margin-left: -57px;
-  position: relative;
-  bottom: 1rem;
-}
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2--- {
-  margin-left: -50px;
-  position: relative;
-  bottom: 1rem;
-}
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto3 {
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2-- {
   margin-left: -33px;
   position: relative;
-  bottom: 2rem;
+  bottom: 1rem;
+  width: 100%;
 }
-.conciertos_ronpe_videos .conciertos_ronpe_div_videos .conciertos_ronpe_body .bi {
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto2--- {
+  margin-left: -27px;
+  position: relative;
+  bottom: 1rem;
+  width: 100%;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body .conciertos_ronpe_texto3 {
+  margin-left: -20px;
+  position: relative;
+  bottom: 2rem;
+  width: 100%;
+}
+.conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_div_videos .conciertos_ronpe_body .bi {
   color: rgba(245, 221, 10, 0.966);
 }
 .conciertos_ronpe_videos .video_youtube1 {
@@ -1031,19 +1035,19 @@ h1 {
   }
   .conciertos_ronpe_videos .video_youtube1 {
     width: 85vw;
-    height: 600px;
+    height: 500px;
     margin-top: 5rem;
   }
   .conciertos_ronpe_videos .video_youtube2 {
     width: 85vw;
-    height: 600px;
+    height: 500px;
   }
 }
 @media (min-width: 1300px) {
   .conciertos_ronpe_videos .conciertos_ronpe_videos_container {
     display: flex;
     justify-content: baseline;
-    gap: 19px;
+    gap: 25px;
   }
   .conciertos_ronpe_videos .conciertos_ronpe_videos_container .conciertos_ronpe_video1 {
     height: 230px;
@@ -1071,12 +1075,13 @@ h1 {
 /*------HEADER------*/
 header .titulo_prox_conciertos {
   font-size: 1.8rem;
+  width: 65%;
 }
 
 /*SECCION CONCIERTOS*/
 h2 {
   font-family: "Roboto Slab", serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: rgba(245, 221, 10, 0.966);
   margin-top: 3rem;
   text-align: center;
@@ -1139,7 +1144,7 @@ h2 {
 }
 .seccion_concierto1 .conciertos_div .conciertos_container .conciertos_body .conciertos_direccion {
   font-family: "Hind Madurai";
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   margin-left: 10px;
   position: relative;
   bottom: 16px;
@@ -1242,7 +1247,7 @@ h2 {
 }
 .seccion_concierto2 .conciertos_div .conciertos_container .conciertos_body .conciertos_direccion {
   font-family: "Hind Madurai";
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   margin-left: 10px;
   position: relative;
   bottom: 16px;
@@ -1324,7 +1329,7 @@ h2 {
   background: linear-gradient(90deg, rgb(89, 69, 10) 0%, rgb(64, 49, 7) 40%, rgb(64, 48, 5) 79%);
   position: relative;
   top: 20px;
-  right: 1rem;
+  right: 0.6rem;
 }
 .seccion_concierto3 .conciertos_div .conciertos_container .conciertos_body .conciertos_fecha_comprar .conciertos_comprar .comprar_texto {
   margin-left: 5px;
@@ -1341,7 +1346,7 @@ h2 {
 }
 .seccion_concierto3 .conciertos_div .conciertos_container .conciertos_body .conciertos_direccion {
   font-family: "Hind Madurai";
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   margin-left: 10px;
   position: relative;
   bottom: 16px;
@@ -1423,7 +1428,7 @@ h2 {
   background: linear-gradient(90deg, rgb(89, 69, 10) 0%, rgb(64, 49, 7) 40%, rgb(64, 48, 5) 79%);
   position: relative;
   top: 20px;
-  right: 1rem;
+  right: 0.6rem;
 }
 .seccion_concierto4 .conciertos_div .conciertos_container .conciertos_body .conciertos_fecha_comprar .conciertos_comprar .comprar_texto {
   margin-left: 5px;
@@ -1440,7 +1445,7 @@ h2 {
 }
 .seccion_concierto4 .conciertos_div .conciertos_container .conciertos_body .conciertos_direccion {
   font-family: "Hind Madurai";
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   margin-left: 10px;
   position: relative;
   bottom: 16px;
@@ -1522,7 +1527,7 @@ h2 {
   background: linear-gradient(90deg, rgb(89, 69, 10) 0%, rgb(64, 49, 7) 40%, rgb(64, 48, 5) 79%);
   position: relative;
   top: 20px;
-  right: 1rem;
+  right: 0.6rem;
 }
 .seccion_concierto5 .conciertos_div .conciertos_container .conciertos_body .conciertos_fecha_comprar .conciertos_comprar .comprar_texto {
   margin-left: 5px;
@@ -1539,7 +1544,7 @@ h2 {
 }
 .seccion_concierto5 .conciertos_div .conciertos_container .conciertos_body .conciertos_direccion {
   font-family: "Hind Madurai";
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   margin-left: 10px;
   position: relative;
   bottom: 16px;
@@ -1586,7 +1591,7 @@ h2 {
 .canciones_top {
   display: flex;
   justify-content: center;
-  margin-top: -4rem;
+  margin-top: -1rem;
 }
 .canciones_top .canciones_top_titulo {
   font-size: 1.6rem;

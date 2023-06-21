@@ -5,7 +5,6 @@ header {
     align-items: center;
     background-color: white;
     height: 7rem;
-    overflow: hidden;
 
     .caja-logo-ronpe {
         margin-left: 1rem;
@@ -254,6 +253,7 @@ header {
     }
 
     .ult_lanzamiento_body {
+        width: 63%;
         position: relative;
         bottom: 5.5rem;
         left: 7rem;

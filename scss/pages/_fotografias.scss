@@ -61,21 +61,21 @@ h1 {
             margin-top: 2rem;
             .fotos_ronpe_img1 {
                 width: 40vw;
-                height: 50vh;
+                height: 25rem;
             }
             .fotos_ronpe_img2 {
                 width: 40vw;
-                height: 50vh;
+                height: 25rem;
                 margin-left: -1rem;
                 margin-top: 1.05rem;
             }
             .fotos_ronpe_img3 {
                 width: 40vw;
-                height: 50vh;
+                height: 25rem;
             }
             .fotos_ronpe_img4 {
                 width: 40vw;
-                height: 50vh;
+                height: 25rem;
                 margin-left: -1rem;
                 position: relative;
             }
@@ -161,61 +161,68 @@ h1 {
 .conciertos_ronpe_videos {
     margin-top: 4rem;
     text-align: center;
-
-    .conciertos_ronpe_div_videos {
-        margin-top: 1rem;
-        .conciertos_ronpe_body {
+    .conciertos_ronpe_videos_container {
+        .conciertos_ronpe_div_videos {
+            margin-top: 1rem;
             text-align: center;
-            color: $color-blanco;
-            margin-left: -200px;
+            .conciertos_ronpe_body {
+                width: 100%;
+                color: $color-blanco;
 
-            .conciertos_ronpe_texto2 {
-                margin-left: -25px;
-                position: relative;
-                bottom: 1rem;
-            }
+                .conciertos_ronpe_texto2 {
+                    margin-left: -15px;
+                    position: relative;
+                    bottom: 1rem;
+                    width: 100%
+                }
 
-            .conciertos_ronpe_texto2- {
-                margin-left: -45px;
-                position: relative;
-                bottom: 1rem;
+                .conciertos_ronpe_texto2- {
+                    margin-left: -25px;
+                    position: relative;
+                    bottom: 1rem;
+                    width: 100%
+                }
+    
+                .conciertos_ronpe_texto2-- {
+                    margin-left: -33px;
+                    position: relative;
+                    bottom: 1rem;
+                    width: 100%
+                }
+    
+                .conciertos_ronpe_texto2--- {
+                    margin-left: -27px;
+                    position: relative;
+                    bottom: 1rem;
+                    width: 100%
+                }
+    
+                .conciertos_ronpe_texto3 {
+                    margin-left: -20px;
+                    position: relative;
+                    bottom: 2rem;
+                    width: 100%
+                }
+    
+                .bi {
+                    color: $color-principal;
+                }
             }
-
-            .conciertos_ronpe_texto2-- {
-                margin-left: -57px;
-                position: relative;
-                bottom: 1rem;
-            }
-
-            .conciertos_ronpe_texto2--- {
-                margin-left: -50px;
-                position: relative;
-                bottom: 1rem;
-            }
-
-            .conciertos_ronpe_texto3 {
-                margin-left: -33px;
-                position: relative;
-                bottom: 2rem;
-            }
-
-            .bi {
-                color: $color-principal;
-            }
-        }
-    } 
+        } 
+    }
 
     .video_youtube1 {
         width: 95vw;
         height: 15rem;
     }
-
+    
     .video_youtube2 {
         margin-top: 1.5rem;
         width: 95vw;
         height: 15rem;
     }
 }
+
 
 
 @media (min-width: 750px) {
@@ -230,12 +237,12 @@ h1 {
         }
         .video_youtube1 {
             width: 85vw;
-            height: 600px;
+            height: 500px;
             margin-top: 5rem;
         }
         .video_youtube2 {
             width: 85vw;
-            height: 600px;
+            height: 500px;
         }
     }
 }
@@ -245,7 +252,7 @@ h1 {
         .conciertos_ronpe_videos_container {
             display: flex;
             justify-content:baseline;
-            gap: 19px;
+            gap: 25px;
             .conciertos_ronpe_video1 {
                 height: 230px;
                 width: 100%;
