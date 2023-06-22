@@ -92,7 +92,7 @@ h1 {
     .conciertos_ronpe_titulo {
         font-family: 'Roboto Slab', serif;
         color: $color-principal;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin-top: 3rem;
     }
 
@@ -126,31 +126,37 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-    .conciertos_ronpe_div_imgs {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        margin-left: 8vw;
-
-        .conciertos_ronpe_img1 {
-            width: 40vw;
-            height: 22rem;
+    .conciertos_ronpe_imgs {
+        .conciertos_ronpe_titulo {
+            font-size: 2.4rem;
         }
-        .conciertos_ronpe_img2 {
-            width: 40vw;
-            height: 22rem;
-            margin-left: -1rem;
-            margin-top: 2rem;
-        }
-        .conciertos_ronpe_img3 {
-            width: 40vw;
-            height: 23rem;
-        }
-        .conciertos_ronpe_img4 {
-            width: 40vw;
-            height: 23rem;
-            margin-left: -1rem;
-            position: relative;
+    
+        .conciertos_ronpe_div_imgs {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            margin-left: 8vw;
+    
+            .conciertos_ronpe_img1 {
+                width: 40vw;
+                height: 22rem;
+            }
+            .conciertos_ronpe_img2 {
+                width: 40vw;
+                height: 22rem;
+                margin-left: -1rem;
+                margin-top: 2rem;
+            }
+            .conciertos_ronpe_img3 {
+                width: 40vw;
+                height: 23rem;
+            }
+            .conciertos_ronpe_img4 {
+                width: 40vw;
+                height: 23rem;
+                margin-left: -1rem;
+                position: relative;
+            }
         }
     }
 }

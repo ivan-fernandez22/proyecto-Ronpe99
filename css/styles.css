@@ -54,7 +54,7 @@ header h1 {
 }
 .nav_list .nav_links {
   text-decoration: none;
-  color: yellow;
+  color: rgba(245, 221, 10, 0.966);
 }
 .nav_list .nav_links:hover {
   font-size: 1.4rem;
@@ -129,7 +129,7 @@ header h1 {
     text-align: center;
     color: whitesmoke;
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
   }
   .minibiografia .texto_minibiografia .seguir_leyendo {
     font-size: 1.2rem;
@@ -160,19 +160,18 @@ header h1 {
   border: solid black;
   min-height: 500px;
   max-width: 90vw;
-  gap: 10px;
-  margin-left: 4.5vw;
+  padding: 5px;
   margin-top: 0.5rem;
+  margin-left: 4.4vw;
   overflow: hidden;
 }
 .canciones_populares_section .canciones_populares_container .canciones_populares_div {
   max-width: 90%;
-  border-radius: 10px;
+  border-radius: 20px;
   background: black;
   margin-top: 1rem;
-  margin-left: 2.5vw;
+  margin-left: 1rem;
   text-align: center;
-  justify-content: center;
 }
 .canciones_populares_section .canciones_populares_container .canciones_populares_div .canciones_populares_nombreTema {
   font-size: 1.2rem;
@@ -187,7 +186,7 @@ header h1 {
 @media (min-width: 675px) {
   .canciones_populares_section {
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 42.5vw;
   }
   .canciones_populares_section .canciones_populares_titulo {
@@ -200,6 +199,11 @@ header h1 {
     width: 50vw;
   }
 }
+@media (min-width: 1200px) {
+  .canciones_populares_section .canciones_populares_container .canciones_populares_div {
+    margin-left: 2.2vw;
+  }
+}
 /*-------SECCION ULTIMO LANZAMIENTO--------*/
 .ult_lanzamiento_titulo {
   font-family: "Roboto Slab", serif;
@@ -210,7 +214,7 @@ header h1 {
 }
 
 .ult_lanzamiento_div {
-  height: 140px;
+  height: 125px;
   width: 95vw;
   background: rgb(45, 37, 14);
   background: linear-gradient(90deg, rgb(45, 37, 14) 0%, rgb(148, 141, 55) 40%, rgb(196, 181, 12) 80%);
@@ -219,26 +223,28 @@ header h1 {
 }
 .ult_lanzamiento_div .img-trastorno {
   margin-top: 0.9rem;
-  margin-left: 1rem;
-  width: 5.5rem;
-  height: 5.5rem;
+  margin-left: 0.7rem;
+  width: 90px;
+  height: 90px;
 }
 .ult_lanzamiento_div .ult_lanzamiento_body {
   width: 63%;
   position: relative;
-  bottom: 5.5rem;
+  bottom: 5.8rem;
   left: 7rem;
 }
 .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_nombre {
   font-family: "Hind Madurai";
   font-size: 1.5rem;
   margin-left: 0.3rem;
+  color: whitesmoke;
 }
 .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_fecha {
   font-family: "Hind Madurai";
   font-size: 1rem;
   margin-top: -0.8rem;
   margin-left: 0.5rem;
+  color: whitesmoke;
 }
 .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_reproductor {
   margin-top: -10px;
@@ -249,9 +255,7 @@ header h1 {
 
 @media (min-width: 675px) {
   .ult_lanzamiento_titulo {
-    margin-top: 2rem;
-  }
-  .ult_lanzamiento_titulo {
+    margin-top: 4rem;
     font-size: 1.5rem;
   }
 }
@@ -278,11 +282,11 @@ header h1 {
   }
   .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_nombre {
     font-size: 1.8rem;
-    color: black;
+    color: whitesmoke;
   }
   .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_fecha {
     font-size: 1rem;
-    color: black;
+    color: whitesmoke;
     margin-top: -0.5rem;
   }
   .ult_lanzamiento_div .ult_lanzamiento_body .ult_lanzamiento_reproductor {
@@ -326,7 +330,7 @@ header h1 {
 .tarjetas .tarjeta1_div .tarjetas_body .tarjetas_body_fechaDeLanzamiento {
   color: beige;
   font-family: "Hind Madurai";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .tarjetas .tarjeta1_div .tarjetas_body .tarjetas_reproductor {
   width: 100%;
@@ -364,7 +368,7 @@ header h1 {
 .tarjetas .tarjeta2_div .tarjetas_body .tarjetas_body_fechaDeLanzamiento {
   color: beige;
   font-family: "Hind Madurai";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .tarjetas .tarjeta2_div .tarjetas_body .tarjetas_reproductor {
   width: 100%;
@@ -404,7 +408,7 @@ header h1 {
 .tarjeta3_div .tarjetas_body .tarjetas_body_fechaDeLanzamiento {
   color: beige;
   font-family: "Hind Madurai";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .tarjeta3_div .tarjetas_body .tarjetas_reproductor {
   width: 100%;
@@ -912,7 +916,7 @@ h1 {
 .conciertos_ronpe_imgs .conciertos_ronpe_titulo {
   font-family: "Roboto Slab", serif;
   color: rgba(245, 221, 10, 0.966);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-top: 3rem;
 }
 .conciertos_ronpe_imgs .conciertos_ronpe_img1 {
@@ -941,27 +945,30 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-  .conciertos_ronpe_div_imgs {
+  .conciertos_ronpe_imgs .conciertos_ronpe_titulo {
+    font-size: 2.4rem;
+  }
+  .conciertos_ronpe_imgs .conciertos_ronpe_div_imgs {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     margin-left: 8vw;
   }
-  .conciertos_ronpe_div_imgs .conciertos_ronpe_img1 {
+  .conciertos_ronpe_imgs .conciertos_ronpe_div_imgs .conciertos_ronpe_img1 {
     width: 40vw;
     height: 22rem;
   }
-  .conciertos_ronpe_div_imgs .conciertos_ronpe_img2 {
+  .conciertos_ronpe_imgs .conciertos_ronpe_div_imgs .conciertos_ronpe_img2 {
     width: 40vw;
     height: 22rem;
     margin-left: -1rem;
     margin-top: 2rem;
   }
-  .conciertos_ronpe_div_imgs .conciertos_ronpe_img3 {
+  .conciertos_ronpe_imgs .conciertos_ronpe_div_imgs .conciertos_ronpe_img3 {
     width: 40vw;
     height: 23rem;
   }
-  .conciertos_ronpe_div_imgs .conciertos_ronpe_img4 {
+  .conciertos_ronpe_imgs .conciertos_ronpe_div_imgs .conciertos_ronpe_img4 {
     width: 40vw;
     height: 23rem;
     margin-left: -1rem;
@@ -1605,6 +1612,7 @@ h2 {
   background: rgb(222, 215, 196);
   background: linear-gradient(90deg, rgb(222, 215, 196) 0%, rgb(219, 215, 202) 25%, rgb(237, 235, 229) 79%);
   justify-content: center;
+  overflow: hidden;
 }
 .canciones_top .canciones_top_div .canciones_top_list {
   position: relative;
@@ -1618,7 +1626,7 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item1 {
   display: flex;
   justify-content: center;
-  margin-left: -5rem;
+  margin-left: -3rem;
   position: relative;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item1 .canciones_top_texto {
@@ -1631,13 +1639,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item1 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 39px;
+  left: 19px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item2 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -8rem;
+  margin-left: -6rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item2 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1649,13 +1657,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item2 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 88px;
+  left: 68px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item3 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -9rem;
+  margin-left: -7rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item3 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1667,13 +1675,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item3 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 103px;
+  left: 83px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item4 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -9.6rem;
+  margin-left: -7.6rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item4 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1685,13 +1693,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item4 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 113px;
+  left: 93px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item5 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -11.5rem;
+  margin-left: -9.5rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item5 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1703,13 +1711,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item5 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 143px;
+  left: 123px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item6 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -10.2rem;
+  margin-left: -8.2rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item6 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1721,13 +1729,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item6 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 123px;
+  left: 103px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item7 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -7.6rem;
+  margin-left: -5.6rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item7 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1739,13 +1747,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item7 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 82px;
+  left: 62px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item8 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -8.2rem;
+  margin-left: -6.2rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item8 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1757,13 +1765,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item8 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 90px;
+  left: 70px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item9 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -10.7rem;
+  margin-left: -8.7rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item9 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1775,13 +1783,13 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item9 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 132px;
+  left: 112px;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item10 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-left: -8.9rem;
+  margin-left: -6.9rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item10 .canciones_top_texto {
   font-family: "Hind Madurai";
@@ -1793,7 +1801,7 @@ h2 {
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item10 .canciones_top_audio {
   width: 50px;
   position: relative;
-  left: 102px;
+  left: 81px;
 }
 
 @media (min-width: 850px) {
@@ -1828,11 +1836,11 @@ h2 {
 @media (min-width: 1500px) {
   .canciones_top .canciones_top_div {
     width: 60vw;
-    height: 500px;
+    height: 340px;
   }
   .canciones_top .canciones_top_div .canciones_top_list {
     position: relative;
-    top: 40px;
+    top: 20px;
     gap: 25px;
   }
 }
@@ -1850,10 +1858,11 @@ h2 {
 }
 .sintomas .sintomas_div {
   width: 90vw;
-  min-height: 560px;
+  min-height: 530px;
   background: rgb(93, 3, 3);
   background: linear-gradient(90deg, rgb(93, 3, 3) 0%, rgb(134, 13, 13) 44%, rgb(111, 72, 16) 84%);
   text-align: center;
+  overflow: hidden;
 }
 .sintomas .sintomas_div .sintomas_texto {
   font-family: "Hind Madurai";
@@ -1980,43 +1989,39 @@ h2 {
 }
 
 /*----SECCION APARECE EN-----*/
-.aparece {
+.container_sintomas_aparece .aparece {
   margin-top: 2rem;
-  display: flex;
-  justify-content: center;
 }
-.aparece .aparece_titulo {
+.container_sintomas_aparece .aparece .aparece_titulo {
   font-size: 1.6rem;
   color: rgba(245, 221, 10, 0.966);
   font-family: "Roboto Slab", serif;
   text-align: center;
+  margin-bottom: 1.2rem;
 }
-.aparece .aparece_div {
+.container_sintomas_aparece .aparece .aparece_div {
   width: 90vw;
-  min-height: 330px;
+  min-height: 335px;
   background: rgb(120, 113, 14);
   background: linear-gradient(90deg, rgb(120, 113, 14) 0%, rgb(175, 158, 0) 48%, rgb(206, 208, 39) 94%);
+  justify-content: center;
   text-align: center;
+  margin-left: 4.5vw;
+  overflow: hidden;
 }
-.aparece .aparece_div .aparece_texto {
-  font-family: "Hind Madurai";
-  width: 100%;
-  padding: 15px;
-  color: whitesmoke;
-}
-.aparece .aparece_div .aparece_list {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list {
   margin-left: 30px;
   position: relative;
-  top: 7px;
+  top: 10px;
   left: 15px;
 }
-.aparece .aparece_div .aparece_list .aparece_item1 {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item1 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   margin-left: -7rem;
 }
-.aparece .aparece_div .aparece_list .aparece_item1 .aparece_nombre_cancion {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item1 .aparece_nombre_cancion {
   font-family: "Hind Madurai";
   font-size: 1.1rem;
   color: whitesmoke;
@@ -2024,18 +2029,18 @@ h2 {
   top: 6px;
   margin-left: 16px;
 }
-.aparece .aparece_div .aparece_list .aparece_item1 .aparece_audio {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item1 .aparece_audio {
   width: 50px;
   position: relative;
   left: 22px;
 }
-.aparece .aparece_div .aparece_list .aparece_item2 {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item2 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   margin-left: -12rem;
 }
-.aparece .aparece_div .aparece_list .aparece_item2 .aparece_nombre_cancion {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item2 .aparece_nombre_cancion {
   font-family: "Hind Madurai";
   font-size: 1.1rem;
   color: whitesmoke;
@@ -2043,18 +2048,18 @@ h2 {
   top: 6px;
   margin-left: 16px;
 }
-.aparece .aparece_div .aparece_list .aparece_item2 .aparece_audio {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item2 .aparece_audio {
   width: 50px;
   position: relative;
   left: 102px;
 }
-.aparece .aparece_div .aparece_list .aparece_item3 {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item3 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   margin-left: -10.7rem;
 }
-.aparece .aparece_div .aparece_list .aparece_item3 .aparece_nombre_cancion {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item3 .aparece_nombre_cancion {
   font-family: "Hind Madurai";
   font-size: 1.1rem;
   color: whitesmoke;
@@ -2062,18 +2067,18 @@ h2 {
   top: 6px;
   margin-left: 16px;
 }
-.aparece .aparece_div .aparece_list .aparece_item3 .aparece_audio {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item3 .aparece_audio {
   width: 50px;
   position: relative;
   left: 83px;
 }
-.aparece .aparece_div .aparece_list .aparece_item4 {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item4 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   margin-left: -10.5rem;
 }
-.aparece .aparece_div .aparece_list .aparece_item4 .aparece_nombre_cancion {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item4 .aparece_nombre_cancion {
   font-family: "Hind Madurai";
   font-size: 1.1rem;
   color: whitesmoke;
@@ -2081,19 +2086,19 @@ h2 {
   top: 6px;
   margin-left: 16px;
 }
-.aparece .aparece_div .aparece_list .aparece_item4 .aparece_audio {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item4 .aparece_audio {
   width: 50px;
   position: relative;
   left: 81px;
 }
-.aparece .aparece_div .aparece_list .aparece_item5 {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item5 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   margin-left: -9.5rem;
   height: 40px;
 }
-.aparece .aparece_div .aparece_list .aparece_item5 .aparece_nombre_cancion {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item5 .aparece_nombre_cancion {
   font-family: "Hind Madurai";
   font-size: 1.1rem;
   color: whitesmoke;
@@ -2101,7 +2106,7 @@ h2 {
   top: -3px;
   margin-left: 16px;
 }
-.aparece .aparece_div .aparece_list .aparece_item5 .aparece_audio {
+.container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item5 .aparece_audio {
   width: 50px;
   position: relative;
   left: 64px;
@@ -2131,24 +2136,25 @@ h2 {
 }
 @media (min-width: 1300px) {
   .container_sintomas_aparece .sintomas .sintomas_titulo {
-    margin-left: 18rem;
+    margin-left: 10rem;
   }
   .container_sintomas_aparece .sintomas .sintomas_div {
     width: 45vw;
     min-height: 330px;
-    margin-left: 20vw;
+    margin-left: 10vw;
   }
   .container_sintomas_aparece .sintomas .sintomas_div .sintomas_list {
     display: grid;
     grid-template-columns: 50% 50%;
   }
   .container_sintomas_aparece .aparece {
-    margin-top: 2rem;
+    margin-top: 1.8rem;
   }
   .container_sintomas_aparece .aparece .aparece_div {
     width: 30vw;
     min-height: 330px;
     margin-top: -0.5rem;
+    margin-left: 10vw;
   }
   .container_sintomas_aparece .aparece .aparece_div .aparece_list {
     position: relative;
@@ -2169,12 +2175,12 @@ h2 {
 }
 .conoce .conoce_container {
   display: flex;
-  gap: 10px;
+  gap: 7px;
   margin-left: 10px;
 }
 .conoce .conoce_container .conoce_h3 {
   font-family: "Hind Madurai";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: rgba(245, 221, 10, 0.966);
   margin-left: -1rem;
   position: relative;
@@ -2184,7 +2190,7 @@ h2 {
   font-size: 1rem;
   text-decoration: none;
   color: #81b71a;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .conoce .conoce_container .conoce_item1:hover {
   font-size: 1.1rem;
@@ -2193,7 +2199,7 @@ h2 {
   font-size: 1rem;
   text-decoration: none;
   color: #FF0000;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .conoce .conoce_container .conoce_item2:hover {
   font-size: 1.1rem;
@@ -2202,7 +2208,7 @@ h2 {
   font-size: 1rem;
   text-decoration: none;
   color: whitesmoke;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .conoce .conoce_container .conoce_item3:hover {
   font-size: 1.1rem;
@@ -2215,7 +2221,7 @@ h2 {
   font-size: 1rem;
   text-decoration: none;
   color: whitesmoke;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .conoce .conoce_container .conoce_item4:hover {
   font-size: 1.1rem;
@@ -2228,7 +2234,7 @@ h2 {
   font-size: 1rem;
   text-decoration: none;
   color: whitesmoke;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .conoce .conoce_container .conoce_item5:hover {
   font-size: 1.1rem;
@@ -2241,30 +2247,30 @@ h2 {
 @media (min-width: 850px) {
   .conoce .conoce_body {
     display: flex;
-    gap: 40px;
+    gap: 25px;
   }
   .conoce .conoce_body .conoce_container .conoce_h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .conoce .conoce_body .conoce_container .conoce_item1 {
-    font-size: 0.9rem;
-    margin-top: 8px;
+    font-size: 1rem;
+    margin-top: 10px;
   }
   .conoce .conoce_body .conoce_container .conoce_item2 {
-    font-size: 0.9rem;
-    margin-top: 8px;
+    font-size: 1rem;
+    margin-top: 10px;
   }
   .conoce .conoce_body .conoce_container .conoce_item3 {
-    font-size: 0.9rem;
-    margin-top: 8px;
+    font-size: 1rem;
+    margin-top: 10px;
   }
   .conoce .conoce_body .conoce_container .conoce_item4 {
-    font-size: 0.9rem;
-    margin-top: 8px;
+    font-size: 1rem;
+    margin-top: 10px;
   }
   .conoce .conoce_body .conoce_container .conoce_item5 {
-    font-size: 0.9rem;
-    margin-top: 8px;
+    font-size: 1rem;
+    margin-top: 10px;
   }
 }
 

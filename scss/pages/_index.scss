@@ -49,7 +49,7 @@ header {
 
     .nav_links {
         text-decoration: none;
-        color: yellow;
+        color: $color-principal;
 
         &:hover {
             font-size: 1.4rem;
@@ -140,7 +140,7 @@ header {
             text-align: center;
             color: $color-blanco;
             position: relative;
-            bottom: 30px;
+            bottom: 10px;
             .seguir_leyendo {
                 font-size: 1.2rem;
                 &:hover {
@@ -179,19 +179,19 @@ header {
         border: solid black;
         min-height: 500px;
         max-width: 90vw;
-        gap: 10px;
-        margin-left: 4.5vw;
+        padding: 5px;
         margin-top: 0.5rem;
-        overflow:hidden;
+        margin-left: 4.4vw;
+        overflow: hidden;
 
         .canciones_populares_div {
             max-width: 90%;
-            border-radius: 10px;
+            border-radius: 20px;
             background: black;
             margin-top: 1rem;
-            margin-left: 2.5vw;
+            margin-left: 1rem;
             text-align: center;
-            justify-content: center;
+
 
             .canciones_populares_nombreTema {
                 font-size: 1.2rem;
@@ -210,7 +210,7 @@ header {
 @media (min-width: 675px) {
     .canciones_populares_section {
         position: absolute;
-        top: 150px;
+        top: 200px;
         left: 42.5vw;
 
         .canciones_populares_titulo {
@@ -222,6 +222,16 @@ header {
 
         .canciones_populares_container {
             width: 50vw;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .canciones_populares_section {
+        .canciones_populares_container {
+            .canciones_populares_div {
+                margin-left: 2.2vw;
+            }
         }
     }
 }
@@ -238,7 +248,7 @@ header {
 }
 
 .ult_lanzamiento_div {
-    height: 140px;
+    height: 125px;
     width: 95vw;
     background: rgb(45, 37, 14);
     background: linear-gradient(90deg, rgba(45, 37, 14, 1) 0%, rgba(148, 141, 55, 1) 40%, rgba(196, 181, 12, 1) 80%);
@@ -247,21 +257,22 @@ header {
 
     .img-trastorno {
         margin-top: 0.9rem;
-        margin-left: 1rem;
-        width: 5.5rem;
-        height: 5.5rem;
+        margin-left: 0.7rem;
+        width: 90px;
+        height: 90px;
     }
 
     .ult_lanzamiento_body {
         width: 63%;
         position: relative;
-        bottom: 5.5rem;
+        bottom: 5.8rem;
         left: 7rem;
 
         .ult_lanzamiento_nombre {
             font-family: 'Hind Madurai';
             font-size: 1.5rem;
             margin-left: 0.3rem;
+            color: $color-blanco;
         }
 
         .ult_lanzamiento_fecha {
@@ -269,6 +280,7 @@ header {
             font-size: 1rem;
             margin-top: -0.8rem;
             margin-left: 0.5rem;
+            color: $color-blanco;
         }
 
         .ult_lanzamiento_reproductor {
@@ -282,10 +294,7 @@ header {
 
 @media (min-width: 675px) {
     .ult_lanzamiento_titulo {
-        margin-top: 2rem;
-    }
-
-    .ult_lanzamiento_titulo {
+        margin-top: 4rem;
         font-size: 1.5rem;
     }
 }
@@ -316,12 +325,12 @@ header {
 
             .ult_lanzamiento_nombre {
                 font-size: 1.8rem;
-                color: black;
+                color: $color-blanco;
             }
 
             .ult_lanzamiento_fecha {
                 font-size: 1rem;
-                color: black;
+                color: $color-blanco;
                 margin-top: -0.5rem;
             }
 
@@ -374,7 +383,7 @@ header {
             .tarjetas_body_fechaDeLanzamiento {
                 color: $color-beige;
                 font-family: 'Hind Madurai';
-                font-size: 1.4rem;
+                font-size: 1.2rem;
             }
 
             .tarjetas_reproductor {
@@ -419,7 +428,7 @@ header {
             .tarjetas_body_fechaDeLanzamiento {
                 color: $color-beige;
                 font-family: 'Hind Madurai';
-                font-size: 1.4rem;
+                font-size: 1.2rem;
             }
 
             .tarjetas_reproductor {
@@ -466,7 +475,7 @@ header {
         .tarjetas_body_fechaDeLanzamiento {
             color: $color-beige;
             font-family: 'Hind Madurai';
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
 
         .tarjetas_reproductor {
