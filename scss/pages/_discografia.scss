@@ -13,13 +13,13 @@
 
     .canciones_top_div {
         width: 90vw;
-        height: 610px;
+        min-height: 610px;
         background: rgb(59,123,154);
         background: linear-gradient(90deg, rgba(59,123,154,1) 0%, rgba(102,165,196,1) 43%, rgba(165,222,241,1) 63%, rgba(255,255,255,1) 94%);
         justify-content: center;
         overflow: hidden;
         .canciones_top_list {
-            margin-top: 12px;
+            margin-top: 6px;
             justify-content: center;
             .canciones_top_list_container {
                 .canciones_top_item1 {
@@ -457,6 +457,7 @@
     
             .aparece_list {
                 margin-left: 60px;
+                margin-top: -10px;
 
                 .aparece_item1 {
                     display: flex;

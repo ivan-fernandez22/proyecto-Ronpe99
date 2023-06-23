@@ -177,7 +177,7 @@ header {
         background: rgb(45, 37, 14);
         background: linear-gradient(90deg, rgba(45, 37, 14, 1) 0%, rgba(148, 141, 55, 1) 40%, rgba(196, 181, 12, 1) 80%);
         border: solid black;
-        min-height: 515px;
+        min-height: auto;
         max-width: 90vw;
         padding: 5px;
         margin-top: 0.5rem;
@@ -191,6 +191,8 @@ header {
             margin-top: 1rem;
             margin-left: 1rem;
             text-align: center;
+            position: relative;
+            bottom: 10px;
 
 
             .canciones_populares_nombreTema {
@@ -228,6 +230,9 @@ header {
 
 @media (min-width: 1200px) {
     .canciones_populares_section {
+        .canciones_populares_titulo {
+            font-size: 1.9rem;
+        }
         .canciones_populares_container {
             .canciones_populares_div {
                 margin-left: 2.2vw;
@@ -256,7 +261,7 @@ header {
     margin-left: 2.5vw;
     overflow: hidden;
 
-    .img-trastorno {
+    .img_trastorno {
         margin-top: 0.9rem;
         margin-left: 0.7rem;
         width: 90px;
@@ -288,7 +293,8 @@ header {
             margin-top: -10px;
             margin-left: 10px;
             border-radius: 30px;
-            width: 55vw
+            width: 55vw;
+            height: 35px;
         }
     }
 }
@@ -303,7 +309,7 @@ header {
 
 @media (min-width: 1024px) {
     .ult_lanzamiento_titulo {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         text-align: start;
         margin-left: 2.8vw;
         color: $color-principal;
@@ -313,16 +319,16 @@ header {
         height: 160px;
         margin-top: 1rem;
 
-        .img-trastorno {
+        .img_trastorno {
             margin-top: 0.6rem;
             margin-left: 1rem;
-            width: 8.3rem;
-            height: 8.3rem;
+            width: 7rem;
+            height: 7rem;
         }
 
         .ult_lanzamiento_body {
-            margin-left: 6vw;
-            margin-top: -2.3rem;
+            margin-left: 2rem;
+            margin-top: -20px;
 
             .ult_lanzamiento_nombre {
                 font-size: 1.8rem;
@@ -529,7 +535,7 @@ header {
 @media (min-width: 1024px) {
     .tarjetas {
         .tarjetas_titulo {
-            font-size: 1.5rem;
+            font-size: 1.9rem;
             text-align: start;
             margin-left: 3vw;
         }
