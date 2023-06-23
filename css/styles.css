@@ -1634,26 +1634,20 @@ h2 {
 }
 .canciones_top .canciones_top_div {
   width: 90vw;
-  min-height: 645px;
+  height: 610px;
   background: rgb(59, 123, 154);
   background: linear-gradient(90deg, rgb(59, 123, 154) 0%, rgb(102, 165, 196) 43%, rgb(165, 222, 241) 63%, rgb(255, 255, 255) 94%);
   justify-content: center;
   overflow: hidden;
 }
 .canciones_top .canciones_top_div .canciones_top_list {
-  position: relative;
-  top: 2%;
+  margin-top: 12px;
   justify-content: center;
-}
-.canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container {
-  position: relative;
-  top: 1rem;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item1 {
   display: flex;
   justify-content: center;
   margin-left: -3rem;
-  position: relative;
 }
 .canciones_top .canciones_top_div .canciones_top_list .canciones_top_list_container .canciones_top_item1 .canciones_top_texto {
   color: black;
@@ -2037,7 +2031,7 @@ h2 {
 }
 .container_sintomas_aparece .aparece .aparece_div {
   width: 90vw;
-  min-height: 345px;
+  min-height: 305px;
   background: rgb(120, 113, 14);
   background: linear-gradient(90deg, rgb(120, 113, 14) 0%, rgb(175, 158, 0) 48%, rgb(206, 208, 39) 94%);
   justify-content: center;
@@ -2046,9 +2040,7 @@ h2 {
   overflow: hidden;
 }
 .container_sintomas_aparece .aparece .aparece_div .aparece_list {
-  margin-left: 30px;
-  position: relative;
-  left: 15px;
+  margin-left: 60px;
 }
 .container_sintomas_aparece .aparece .aparece_div .aparece_list .aparece_item1 {
   display: flex;

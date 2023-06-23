@@ -13,24 +13,19 @@
 
     .canciones_top_div {
         width: 90vw;
-        min-height: 645px;
+        height: 610px;
         background: rgb(59,123,154);
         background: linear-gradient(90deg, rgba(59,123,154,1) 0%, rgba(102,165,196,1) 43%, rgba(165,222,241,1) 63%, rgba(255,255,255,1) 94%);
         justify-content: center;
         overflow: hidden;
         .canciones_top_list {
-            position: relative;
-            top: 2%;
+            margin-top: 12px;
             justify-content: center;
             .canciones_top_list_container {
-                position: relative;
-                top: 1rem;
-                
                 .canciones_top_item1 {
                     display: flex;
                     justify-content: center;
                     margin-left: -3rem;
-                    position: relative;
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -452,7 +447,7 @@
     
         .aparece_div {
             width: 90vw;
-            min-height: 345px;
+            min-height: 305px;
             background: rgb(120,113,14);
             background: linear-gradient(90deg, rgba(120,113,14,1) 0%, rgba(175,158,0,1) 48%, rgba(206,208,39,1) 94%);
             justify-content: center;
@@ -461,10 +456,8 @@
             overflow: hidden;
     
             .aparece_list {
-                margin-left: 30px;
-                position: relative;
-                left: 15px;
-    
+                margin-left: 60px;
+
                 .aparece_item1 {
                     display: flex;
                     justify-content: center;
