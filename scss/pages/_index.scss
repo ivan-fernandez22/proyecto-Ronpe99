@@ -177,7 +177,7 @@ header {
         background: rgb(45, 37, 14);
         background: linear-gradient(90deg, rgba(45, 37, 14, 1) 0%, rgba(148, 141, 55, 1) 40%, rgba(196, 181, 12, 1) 80%);
         border: solid black;
-        min-height: 500px;
+        min-height: 515px;
         max-width: 90vw;
         padding: 5px;
         margin-top: 0.5rem;
@@ -248,12 +248,13 @@ header {
 }
 
 .ult_lanzamiento_div {
-    height: 125px;
+    max-height: 135px;
     width: 95vw;
     background: rgb(45, 37, 14);
     background: linear-gradient(90deg, rgba(45, 37, 14, 1) 0%, rgba(148, 141, 55, 1) 40%, rgba(196, 181, 12, 1) 80%);
     border: solid black;
     margin-left: 2.5vw;
+    overflow: hidden;
 
     .img-trastorno {
         margin-top: 0.9rem;
