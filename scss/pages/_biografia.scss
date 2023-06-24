@@ -50,6 +50,7 @@ h1 {
     .bio1_container {
         display: grid;
         grid-template-columns: 45% 55%;
+
         .bio1_img {
             width: 40vw;
             height: 50vh;
@@ -57,6 +58,7 @@ h1 {
             margin-bottom: 1rem;
             margin-left: 3vw;
         }
+
         .bio1_body {
             .bio1_titulo {
                 font-family: 'Roboto Slab', serif;
@@ -64,13 +66,14 @@ h1 {
                 text-align: center;
                 margin-top: 2rem;
             }
+
             .bio_texto {
                 margin-left: 1.5vw;
                 margin-top: 1rem;
                 font-size: 1.3rem;
             }
         }
-    }   
+    }
 }
 
 @media (min-width: 1500px) {
@@ -79,17 +82,19 @@ h1 {
             width: 37vw;
             height: 68vh;
         }
+
         .bio1_body {
             .bio1_titulo {
                 margin-left: -22vw;
                 font-size: 1.8vw;
             }
+
             .bio_texto {
                 font-size: 1.3vw;
                 width: 30vw;
             }
         }
-    }   
+    }
 }
 
 
@@ -97,6 +102,7 @@ h1 {
 /*-----SECCION 2 BIOGRAFIA-------*/
 .bio2_container {
     margin-top: 4rem;
+
     .bio2_img {
         width: 90vw;
         height: 50vh;
@@ -105,7 +111,7 @@ h1 {
     }
 
     .bio2_body {
-        .bio2_titulo{
+        .bio2_titulo {
             font-family: 'Roboto Slab', serif;
             color: $color-principal;
             font-size: 1.7rem;
@@ -134,17 +140,20 @@ h1 {
         margin-top: -1rem;
         display: grid;
         grid-template-columns: 45% 55%;
+
         .bio2_img {
             width: 40vw;
             height: 60vh;
             margin-left: 3vw;
             margin-top: 4rem;
         }
+
         .bio2_body {
-            .bio2_titulo{
+            .bio2_titulo {
                 font-size: 2rem;
                 margin-top: 4rem;
             }
+
             .bio_texto {
                 margin-left: 1.5vw;
                 margin-top: 1rem;
@@ -160,29 +169,33 @@ h1 {
             width: 37vw;
             height: 68vh;
         }
+
         .bio2_body {
             .bio2_titulo {
                 margin-left: -22vw;
                 font-size: 1.8vw;
             }
+
             .bio_texto {
                 font-size: 1.3vw;
                 width: 30vw;
             }
         }
-    }   
+    }
 }
 
 
 /*--------SECCION 3 BIOGRAFIA----------*/
 .bio3_container {
     margin-top: 4rem;
+
     .bio3_img {
         width: 90vw;
         height: 50vh;
         margin-left: 5vw;
         margin-top: 1rem;
     }
+
     .bio3_body {
         .bio3_titulo {
             font-family: 'Roboto Slab', serif;
@@ -191,6 +204,7 @@ h1 {
             text-align: center;
             margin-top: 1.3rem;
         }
+
         .bio_texto {
             font-family: 'Hind Madurai';
             margin-left: 1.5rem;
@@ -208,14 +222,16 @@ h1 {
         margin-top: 0rem;
         display: grid;
         grid-template-columns: 45% 55%;
+
         .bio3_img {
             width: 40vw;
             height: 60vh;
             margin-left: 3vw;
             margin-top: 4rem;
         }
+
         .bio3_body {
-            .bio3_titulo{
+            .bio3_titulo {
                 font-size: 2rem;
                 margin-top: 5rem;
             }
@@ -235,15 +251,17 @@ h1 {
             width: 37vw;
             height: 68vh;
         }
+
         .bio3_body {
             .bio3_titulo {
                 margin-left: -22vw;
                 font-size: 1.8vw;
             }
+
             .bio_texto {
                 font-size: 1.3vw;
                 width: 30vw;
             }
         }
-    }   
+    }
 }

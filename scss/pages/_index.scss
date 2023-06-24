@@ -65,8 +65,10 @@ header {
         align-items: center;
         height: 5rem;
         padding: 50px;
+
         .nav_links {
             font-size: 1.3rem;
+
             &:hover {
                 font-size: 1.5rem;
             }
@@ -78,6 +80,7 @@ header {
     .nav_list {
         .nav_links {
             font-size: 1.5rem;
+
             &:hover {
                 font-size: 1.6rem;
             }
@@ -118,7 +121,7 @@ header {
             list-style: none;
             text-decoration: none;
             font-size: 1.1rem;
-    
+
             &:hover {
                 font-size: 1.2rem;
             }
@@ -133,6 +136,7 @@ header {
         margin-top: 3rem;
         width: 40vw;
     }
+
     .minibiografia {
         .texto_minibiografia {
             font-family: 'Hind Madurai', sans-serif;
@@ -141,8 +145,10 @@ header {
             color: $color-blanco;
             position: relative;
             bottom: 10px;
+
             .seguir_leyendo {
                 font-size: 1.2rem;
+
                 &:hover {
                     font-size: 1.3rem;
                 }
@@ -233,6 +239,7 @@ header {
         .canciones_populares_titulo {
             font-size: 1.9rem;
         }
+
         .canciones_populares_container {
             .canciones_populares_div {
                 margin-left: 2.2vw;
@@ -509,20 +516,24 @@ header {
             text-align: center;
             color: $color-principal;
         }
+
         .tarjetas_div_estructura {
             display: grid;
             grid-template-columns: 33% 33% 33%;
             margin-top: -1rem;
+
             .tarjeta1_div {
                 width: 30vw;
                 margin-left: 3vw;
                 position: relative;
                 top: 0rem;
             }
+
             .tarjeta2_div {
                 width: 30vw;
                 margin-left: 2vw;
             }
+
             .tarjeta3_div {
                 width: 30vw;
                 margin-left: 1vw;

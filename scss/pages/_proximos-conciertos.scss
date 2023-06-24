@@ -22,87 +22,96 @@ h2 {
 }
 
 /*-----CONCIERTO 1-----*/
-    .seccion_concierto1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 1.5rem;
-    
-        .conciertos_div {
-            background: rgb(136,117,60);
-            background: linear-gradient(90deg, rgba(136,117,60,1) 0%, rgba(186,184,161,1) 40%, rgba(190,187,150,1) 79%);
-            width: 95vw;
-            height: 110px;
-        
-            .conciertos_container {
-                display: grid;
-                grid-template-columns: 70% 30%;
-                .conciertos_body {
-                    .conciertos_fecha_comprar {
-                        display: grid;
-                        grid-template-columns: 30% 30%;
-                        .conciertos_fecha {
-                            font-family: 'Hind Madurai';
-                            font-size: 1.3rem;
-                            margin-left: 10px;
-                            position: relative;
-                            top: 5px;
-                            .fecha_jun {
-                                position: absolute;
-                                bottom: -22px;
-                            }
-                        }
-                        .conciertos_comprar {
-                            width: 150px;
-                            height: 25px;
-                            border-radius: 10px;
-                            background: rgb(89,69,10);
-                            background: linear-gradient(90deg, rgba(89,69,10,1) 0%, rgba(64,49,7,1) 40%, rgba(64,48,5,1) 79%);
-                            position: relative;
-                            top: 20px;
-                            right: 1rem;
-                            .comprar_texto {
-                                margin-left: 5px;
-                                font-size: 0.9rem;
-                                color: $color-blanco;
-                                &:hover {
-                                    color: $color-principal;
-                                }
-                            }
-                        }
-                    }
-                
-                    .conciertos_horario {
+.seccion_concierto1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+    .conciertos_div {
+        background: rgb(136, 117, 60);
+        background: linear-gradient(90deg, rgba(136, 117, 60, 1) 0%, rgba(186, 184, 161, 1) 40%, rgba(190, 187, 150, 1) 79%);
+        width: 95vw;
+        height: 110px;
+
+        .conciertos_container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+
+            .conciertos_body {
+                .conciertos_fecha_comprar {
+                    display: grid;
+                    grid-template-columns: 30% 30%;
+
+                    .conciertos_fecha {
                         font-family: 'Hind Madurai';
-                        margin-top: 1rem;
-                        margin-left: 10px;
-                    }
-                
-                    .conciertos_direccion {
-                        font-family: 'Hind Madurai';
-                        font-size: 0.75rem;
+                        font-size: 1.3rem;
                         margin-left: 10px;
                         position: relative;
-                        bottom: 16px;
+                        top: 5px;
+
+                        .fecha_jun {
+                            position: absolute;
+                            bottom: -22px;
+                        }
+                    }
+
+                    .conciertos_comprar {
+                        width: 150px;
+                        height: 25px;
+                        border-radius: 10px;
+                        background: rgb(89, 69, 10);
+                        background: linear-gradient(90deg, rgba(89, 69, 10, 1) 0%, rgba(64, 49, 7, 1) 40%, rgba(64, 48, 5, 1) 79%);
+                        position: relative;
+                        top: 20px;
+                        right: 1rem;
+
+                        .comprar_texto {
+                            margin-left: 5px;
+                            font-size: 0.9rem;
+                            color: $color-blanco;
+
+                            &:hover {
+                                color: $color-principal;
+                            }
+                        }
                     }
                 }
-        
-                .conciertos_mapa {
-                    width: 28vw;
-                    height: 110px;
-                    justify-content: end;
+
+                .conciertos_horario {
+                    font-family: 'Hind Madurai';
+                    margin-top: 1rem;
+                    margin-left: 10px;
                 }
+
+                .conciertos_direccion {
+                    font-family: 'Hind Madurai';
+                    font-size: 0.75rem;
+                    margin-left: 10px;
+                    position: relative;
+                    bottom: 16px;
+                }
+            }
+
+            .conciertos_mapa {
+                width: 28vw;
+                height: 110px;
+                justify-content: end;
             }
         }
     }
+}
 
 @media (min-width: 750px) {
     .seccion_concierto1 {
         margin-top: 2rem;
+
         .conciertos_div {
             width: 90vw;
+
             .conciertos_container {
                 display: grid;
                 grid-template-columns: 70% 30%;
+
                 .conciertos_body {
                     .conciertos_fecha_comprar {
                         .conciertos_fecha {
@@ -111,6 +120,7 @@ h2 {
                     }
                 }
             }
+
             .conciertos_mapa {
                 width: 28vw;
                 height: 110px;
@@ -124,20 +134,23 @@ h2 {
     .seccion_concierto1 {
         margin-top: 2rem;
         margin-left: -5rem;
+
         .conciertos_div {
             width: 70vw;
-            
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
                         .conciertos_fecha {
                             font-size: 1.5rem;
                         }
+
                         .conciertos_comprar {
                             position: relative;
                             right: -8rem;
                         }
                     }
+
                     .conciertos_direccion {
                         font-size: 1rem;
                         position: relative;
@@ -151,84 +164,92 @@ h2 {
 
 
 /*-----CONCIERTO 2-----*/
-    .seccion_concierto2 {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-    
-        .conciertos_div {
-            background: rgb(136,117,60);
-            background: linear-gradient(90deg, rgba(136,117,60,1) 0%, rgba(186,184,161,1) 40%, rgba(190,187,150,1) 79%);
-            width: 95vw;
-            height: 110px;
-        
-            .conciertos_container {
-                display: grid;
-                grid-template-columns: 70% 30%;
-                .conciertos_body {
-                    .conciertos_fecha_comprar {
-                        display: grid;
-                        grid-template-columns: 30% 30%;
-                        .conciertos_fecha {
-                            font-family: 'Hind Madurai';
-                            font-size: 1.3rem;
-                            margin-left: 10px;
-                            position: relative;
-                            top: 5px;
-                            .fecha_jun {
-                                position: absolute;
-                                bottom: -22px;
-                            }
-                        }
-                        .conciertos_comprar {
-                            width: 150px;
-                            height: 25px;
-                            border-radius: 10px;
-                            background: rgb(89,69,10);
-                            background: linear-gradient(90deg, rgba(89,69,10,1) 0%, rgba(64,49,7,1) 40%, rgba(64,48,5,1) 79%);
-                            position: relative;
-                            top: 20px;
-                            right: 1rem;
-                            .comprar_texto {
-                                margin-left: 5px;
-                                font-size: 0.9rem;
-                                color: $color-blanco;
-                                &:hover {
-                                    color: $color-principal;
-                                }
-                            }
-                        }
-                    }
-                
-                    .conciertos_horario {
+.seccion_concierto2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .conciertos_div {
+        background: rgb(136, 117, 60);
+        background: linear-gradient(90deg, rgba(136, 117, 60, 1) 0%, rgba(186, 184, 161, 1) 40%, rgba(190, 187, 150, 1) 79%);
+        width: 95vw;
+        height: 110px;
+
+        .conciertos_container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+
+            .conciertos_body {
+                .conciertos_fecha_comprar {
+                    display: grid;
+                    grid-template-columns: 30% 30%;
+
+                    .conciertos_fecha {
                         font-family: 'Hind Madurai';
-                        margin-top: 1rem;
-                        margin-left: 10px;
-                    }
-                
-                    .conciertos_direccion {
-                        font-family: 'Hind Madurai';
-                        font-size: 0.75rem;
+                        font-size: 1.3rem;
                         margin-left: 10px;
                         position: relative;
-                        bottom: 16px;
+                        top: 5px;
+
+                        .fecha_jun {
+                            position: absolute;
+                            bottom: -22px;
+                        }
+                    }
+
+                    .conciertos_comprar {
+                        width: 150px;
+                        height: 25px;
+                        border-radius: 10px;
+                        background: rgb(89, 69, 10);
+                        background: linear-gradient(90deg, rgba(89, 69, 10, 1) 0%, rgba(64, 49, 7, 1) 40%, rgba(64, 48, 5, 1) 79%);
+                        position: relative;
+                        top: 20px;
+                        right: 1rem;
+
+                        .comprar_texto {
+                            margin-left: 5px;
+                            font-size: 0.9rem;
+                            color: $color-blanco;
+
+                            &:hover {
+                                color: $color-principal;
+                            }
+                        }
                     }
                 }
-        
-                .conciertos_mapa {
-                    width: 28vw;
-                    height: 110px;
-                    justify-content: end;
+
+                .conciertos_horario {
+                    font-family: 'Hind Madurai';
+                    margin-top: 1rem;
+                    margin-left: 10px;
                 }
+
+                .conciertos_direccion {
+                    font-family: 'Hind Madurai';
+                    font-size: 0.75rem;
+                    margin-left: 10px;
+                    position: relative;
+                    bottom: 16px;
+                }
+            }
+
+            .conciertos_mapa {
+                width: 28vw;
+                height: 110px;
+                justify-content: end;
             }
         }
     }
+}
 
 @media (min-width: 750px) {
     .seccion_concierto2 {
         margin-top: 2rem;
+
         .conciertos_div {
             width: 90vw;
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
@@ -238,6 +259,7 @@ h2 {
                     }
                 }
             }
+
             .conciertos_mapa {
                 width: 28vw;
                 height: 110px;
@@ -251,19 +273,23 @@ h2 {
     .seccion_concierto2 {
         margin-top: 2rem;
         margin-left: -5rem;
+
         .conciertos_div {
             width: 70vw;
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
                         .conciertos_fecha {
                             font-size: 1.5rem;
                         }
+
                         .conciertos_comprar {
                             position: relative;
                             right: -8rem;
                         }
                     }
+
                     .conciertos_direccion {
                         font-size: 1rem;
                         position: relative;
@@ -276,84 +302,92 @@ h2 {
 }
 
 /*-----CONCIERTO 3-----*/
-    .seccion_concierto3 {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-    
-        .conciertos_div {
-            background: rgb(136,117,60);
-            background: linear-gradient(90deg, rgba(136,117,60,1) 0%, rgba(186,184,161,1) 40%, rgba(190,187,150,1) 79%);
-            width: 95vw;
-            height: 110px;
-        
-            .conciertos_container {
-                display: grid;
-                grid-template-columns: 70% 30%;
-                .conciertos_body {
-                    .conciertos_fecha_comprar {
-                        display: grid;
-                        grid-template-columns: 30% 30%;
-                        .conciertos_fecha {
-                            font-family: 'Hind Madurai';
-                            font-size: 1.3rem;
-                            margin-left: 10px;
-                            position: relative;
-                            top: 5px;
-                            .fecha_jun {
-                                position: absolute;
-                                bottom: -22px;
-                            }
-                        }
-                        .conciertos_comprar {
-                            width: 150px;
-                            height: 25px;
-                            border-radius: 10px;
-                            background: rgb(89,69,10);
-                            background: linear-gradient(90deg, rgba(89,69,10,1) 0%, rgba(64,49,7,1) 40%, rgba(64,48,5,1) 79%);
-                            position: relative;
-                            top: 20px;
-                            right: 0.6rem;
-                            .comprar_texto {
-                                margin-left: 5px;
-                                font-size: 0.9rem;
-                                color: $color-blanco;
-                                &:hover {
-                                    color: $color-principal;
-                                }
-                            }
-                        }
-                    }
-                
-                    .conciertos_horario {
+.seccion_concierto3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .conciertos_div {
+        background: rgb(136, 117, 60);
+        background: linear-gradient(90deg, rgba(136, 117, 60, 1) 0%, rgba(186, 184, 161, 1) 40%, rgba(190, 187, 150, 1) 79%);
+        width: 95vw;
+        height: 110px;
+
+        .conciertos_container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+
+            .conciertos_body {
+                .conciertos_fecha_comprar {
+                    display: grid;
+                    grid-template-columns: 30% 30%;
+
+                    .conciertos_fecha {
                         font-family: 'Hind Madurai';
-                        margin-top: 1rem;
-                        margin-left: 10px;
-                    }
-                
-                    .conciertos_direccion {
-                        font-family: 'Hind Madurai';
-                        font-size: 0.75rem;
+                        font-size: 1.3rem;
                         margin-left: 10px;
                         position: relative;
-                        bottom: 16px;
+                        top: 5px;
+
+                        .fecha_jun {
+                            position: absolute;
+                            bottom: -22px;
+                        }
+                    }
+
+                    .conciertos_comprar {
+                        width: 150px;
+                        height: 25px;
+                        border-radius: 10px;
+                        background: rgb(89, 69, 10);
+                        background: linear-gradient(90deg, rgba(89, 69, 10, 1) 0%, rgba(64, 49, 7, 1) 40%, rgba(64, 48, 5, 1) 79%);
+                        position: relative;
+                        top: 20px;
+                        right: 0.6rem;
+
+                        .comprar_texto {
+                            margin-left: 5px;
+                            font-size: 0.9rem;
+                            color: $color-blanco;
+
+                            &:hover {
+                                color: $color-principal;
+                            }
+                        }
                     }
                 }
-        
-                .conciertos_mapa {
-                    width: 28vw;
-                    height: 110px;
-                    justify-content: end;
+
+                .conciertos_horario {
+                    font-family: 'Hind Madurai';
+                    margin-top: 1rem;
+                    margin-left: 10px;
                 }
+
+                .conciertos_direccion {
+                    font-family: 'Hind Madurai';
+                    font-size: 0.75rem;
+                    margin-left: 10px;
+                    position: relative;
+                    bottom: 16px;
+                }
+            }
+
+            .conciertos_mapa {
+                width: 28vw;
+                height: 110px;
+                justify-content: end;
             }
         }
     }
+}
 
 @media (min-width: 750px) {
     .seccion_concierto3 {
         margin-top: 2rem;
+
         .conciertos_div {
             width: 90vw;
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
@@ -363,6 +397,7 @@ h2 {
                     }
                 }
             }
+
             .conciertos_mapa {
                 width: 28vw;
                 height: 110px;
@@ -376,20 +411,23 @@ h2 {
     .seccion_concierto3 {
         margin-top: 2rem;
         margin-left: -5rem;
+
         .conciertos_div {
             width: 70vw;
-            
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
                         .conciertos_fecha {
                             font-size: 1.5rem;
                         }
+
                         .conciertos_comprar {
                             position: relative;
                             right: -8rem;
                         }
                     }
+
                     .conciertos_direccion {
                         font-size: 1rem;
                         position: relative;
@@ -403,84 +441,92 @@ h2 {
 
 
 /*-----CONCIERTO 4-----*/
-    .seccion_concierto4 {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-    
-        .conciertos_div {
-            background: rgb(136,117,60);
-            background: linear-gradient(90deg, rgba(136,117,60,1) 0%, rgba(186,184,161,1) 40%, rgba(190,187,150,1) 79%);
-            width: 95vw;
-            height: 110px;
-        
-            .conciertos_container {
-                display: grid;
-                grid-template-columns: 70% 30%;
-                .conciertos_body {
-                    .conciertos_fecha_comprar {
-                        display: grid;
-                        grid-template-columns: 30% 30%;
-                        .conciertos_fecha {
-                            font-family: 'Hind Madurai';
-                            font-size: 1.3rem;
-                            margin-left: 10px;
-                            position: relative;
-                            top: 5px;
-                            .fecha_jun {
-                                position: absolute;
-                                bottom: -22px;
-                            }
-                        }
-                        .conciertos_comprar {
-                            width: 150px;
-                            height: 25px;
-                            border-radius: 10px;
-                            background: rgb(89,69,10);
-                            background: linear-gradient(90deg, rgba(89,69,10,1) 0%, rgba(64,49,7,1) 40%, rgba(64,48,5,1) 79%);
-                            position: relative;
-                            top: 20px;
-                            right: 0.6rem;
-                            .comprar_texto {
-                                margin-left: 5px;
-                                font-size: 0.9rem;
-                                color: $color-blanco;
-                                &:hover {
-                                    color: $color-principal;
-                                }
-                            }
-                        }
-                    }
-                
-                    .conciertos_horario {
+.seccion_concierto4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .conciertos_div {
+        background: rgb(136, 117, 60);
+        background: linear-gradient(90deg, rgba(136, 117, 60, 1) 0%, rgba(186, 184, 161, 1) 40%, rgba(190, 187, 150, 1) 79%);
+        width: 95vw;
+        height: 110px;
+
+        .conciertos_container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+
+            .conciertos_body {
+                .conciertos_fecha_comprar {
+                    display: grid;
+                    grid-template-columns: 30% 30%;
+
+                    .conciertos_fecha {
                         font-family: 'Hind Madurai';
-                        margin-top: 1rem;
-                        margin-left: 10px;
-                    }
-                
-                    .conciertos_direccion {
-                        font-family: 'Hind Madurai';
-                        font-size: 0.75rem;
+                        font-size: 1.3rem;
                         margin-left: 10px;
                         position: relative;
-                        bottom: 16px;
+                        top: 5px;
+
+                        .fecha_jun {
+                            position: absolute;
+                            bottom: -22px;
+                        }
+                    }
+
+                    .conciertos_comprar {
+                        width: 150px;
+                        height: 25px;
+                        border-radius: 10px;
+                        background: rgb(89, 69, 10);
+                        background: linear-gradient(90deg, rgba(89, 69, 10, 1) 0%, rgba(64, 49, 7, 1) 40%, rgba(64, 48, 5, 1) 79%);
+                        position: relative;
+                        top: 20px;
+                        right: 0.6rem;
+
+                        .comprar_texto {
+                            margin-left: 5px;
+                            font-size: 0.9rem;
+                            color: $color-blanco;
+
+                            &:hover {
+                                color: $color-principal;
+                            }
+                        }
                     }
                 }
-        
-                .conciertos_mapa {
-                    width: 28vw;
-                    height: 110px;
-                    justify-content: end;
+
+                .conciertos_horario {
+                    font-family: 'Hind Madurai';
+                    margin-top: 1rem;
+                    margin-left: 10px;
                 }
+
+                .conciertos_direccion {
+                    font-family: 'Hind Madurai';
+                    font-size: 0.75rem;
+                    margin-left: 10px;
+                    position: relative;
+                    bottom: 16px;
+                }
+            }
+
+            .conciertos_mapa {
+                width: 28vw;
+                height: 110px;
+                justify-content: end;
             }
         }
     }
+}
 
 @media (min-width: 750px) {
     .seccion_concierto4 {
         margin-top: 2rem;
+
         .conciertos_div {
             width: 90vw;
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
@@ -490,6 +536,7 @@ h2 {
                     }
                 }
             }
+
             .conciertos_mapa {
                 width: 28vw;
                 height: 110px;
@@ -503,20 +550,23 @@ h2 {
     .seccion_concierto4 {
         margin-top: 2rem;
         margin-left: -5rem;
+
         .conciertos_div {
             width: 70vw;
-            
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
                         .conciertos_fecha {
                             font-size: 1.5rem;
                         }
+
                         .conciertos_comprar {
                             position: relative;
                             right: -8rem;
                         }
                     }
+
                     .conciertos_direccion {
                         font-size: 1rem;
                         position: relative;
@@ -530,84 +580,92 @@ h2 {
 
 
 /*-----CONCIERTO 5-----*/
-    .seccion_concierto5 {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-    
-        .conciertos_div {
-            background: rgb(136,117,60);
-            background: linear-gradient(90deg, rgba(136,117,60,1) 0%, rgba(186,184,161,1) 40%, rgba(190,187,150,1) 79%);
-            width: 95vw;
-            height: 110px;
-        
-            .conciertos_container {
-                display: grid;
-                grid-template-columns: 70% 30%;
-                .conciertos_body {
-                    .conciertos_fecha_comprar {
-                        display: grid;
-                        grid-template-columns: 30% 30%;
-                        .conciertos_fecha {
-                            font-family: 'Hind Madurai';
-                            font-size: 1.3rem;
-                            margin-left: 10px;
-                            position: relative;
-                            top: 5px;
-                            .fecha_jun {
-                                position: absolute;
-                                bottom: -22px;
-                            }
-                        }
-                        .conciertos_comprar {
-                            width: 150px;
-                            height: 25px;
-                            border-radius: 10px;
-                            background: rgb(89,69,10);
-                            background: linear-gradient(90deg, rgba(89,69,10,1) 0%, rgba(64,49,7,1) 40%, rgba(64,48,5,1) 79%);
-                            position: relative;
-                            top: 20px;
-                            right: 0.6rem;
-                            .comprar_texto {
-                                margin-left: 5px;
-                                font-size: 0.9rem;
-                                color: $color-blanco;
-                                &:hover {
-                                    color: $color-principal;
-                                }
-                            }
-                        }
-                    }
-                
-                    .conciertos_horario {
+.seccion_concierto5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .conciertos_div {
+        background: rgb(136, 117, 60);
+        background: linear-gradient(90deg, rgba(136, 117, 60, 1) 0%, rgba(186, 184, 161, 1) 40%, rgba(190, 187, 150, 1) 79%);
+        width: 95vw;
+        height: 110px;
+
+        .conciertos_container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+
+            .conciertos_body {
+                .conciertos_fecha_comprar {
+                    display: grid;
+                    grid-template-columns: 30% 30%;
+
+                    .conciertos_fecha {
                         font-family: 'Hind Madurai';
-                        margin-top: 1rem;
-                        margin-left: 10px;
-                    }
-                
-                    .conciertos_direccion {
-                        font-family: 'Hind Madurai';
-                        font-size: 0.75rem;
+                        font-size: 1.3rem;
                         margin-left: 10px;
                         position: relative;
-                        bottom: 16px;
+                        top: 5px;
+
+                        .fecha_jun {
+                            position: absolute;
+                            bottom: -22px;
+                        }
+                    }
+
+                    .conciertos_comprar {
+                        width: 150px;
+                        height: 25px;
+                        border-radius: 10px;
+                        background: rgb(89, 69, 10);
+                        background: linear-gradient(90deg, rgba(89, 69, 10, 1) 0%, rgba(64, 49, 7, 1) 40%, rgba(64, 48, 5, 1) 79%);
+                        position: relative;
+                        top: 20px;
+                        right: 0.6rem;
+
+                        .comprar_texto {
+                            margin-left: 5px;
+                            font-size: 0.9rem;
+                            color: $color-blanco;
+
+                            &:hover {
+                                color: $color-principal;
+                            }
+                        }
                     }
                 }
-        
-                .conciertos_mapa {
-                    width: 28vw;
-                    height: 110px;
-                    justify-content: end;
+
+                .conciertos_horario {
+                    font-family: 'Hind Madurai';
+                    margin-top: 1rem;
+                    margin-left: 10px;
                 }
+
+                .conciertos_direccion {
+                    font-family: 'Hind Madurai';
+                    font-size: 0.75rem;
+                    margin-left: 10px;
+                    position: relative;
+                    bottom: 16px;
+                }
+            }
+
+            .conciertos_mapa {
+                width: 28vw;
+                height: 110px;
+                justify-content: end;
             }
         }
     }
+}
 
 @media (min-width: 750px) {
     .seccion_concierto5 {
         margin-top: 2rem;
+
         .conciertos_div {
             width: 90vw;
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
@@ -617,6 +675,7 @@ h2 {
                     }
                 }
             }
+
             .conciertos_mapa {
                 width: 28vw;
                 height: 110px;
@@ -630,20 +689,23 @@ h2 {
     .seccion_concierto5 {
         margin-top: 2rem;
         margin-left: -5rem;
+
         .conciertos_div {
             width: 70vw;
-            
+
             .conciertos_container {
                 .conciertos_body {
                     .conciertos_fecha_comprar {
                         .conciertos_fecha {
                             font-size: 1.5rem;
                         }
+
                         .conciertos_comprar {
                             position: relative;
                             right: -8rem;
                         }
                     }
+
                     .conciertos_direccion {
                         font-size: 1rem;
                         position: relative;
@@ -654,4 +716,3 @@ h2 {
         }
     }
 }
-

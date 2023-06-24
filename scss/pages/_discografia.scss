@@ -14,18 +14,21 @@
     .canciones_top_div {
         width: 90vw;
         min-height: 610px;
-        background: rgb(59,123,154);
-        background: linear-gradient(90deg, rgba(59,123,154,1) 0%, rgba(102,165,196,1) 43%, rgba(165,222,241,1) 63%, rgba(255,255,255,1) 94%);
+        background: rgb(59, 123, 154);
+        background: linear-gradient(90deg, rgba(59, 123, 154, 1) 0%, rgba(102, 165, 196, 1) 43%, rgba(165, 222, 241, 1) 63%, rgba(255, 255, 255, 1) 94%);
         justify-content: center;
         overflow: hidden;
+
         .canciones_top_list {
             margin-top: 6px;
             justify-content: center;
+
             .canciones_top_list_container {
                 .canciones_top_item1 {
                     display: flex;
                     justify-content: center;
                     margin-left: -3rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -34,18 +37,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 19px
                     }
                 }
-    
+
                 .canciones_top_item2 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -6rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -54,18 +59,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 68px
                     }
                 }
-    
+
                 .canciones_top_item3 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -7rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -74,18 +81,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 83px
                     }
                 }
-    
+
                 .canciones_top_item4 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -7.6rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -94,18 +103,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 93px
                     }
                 }
-    
+
                 .canciones_top_item5 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -9.5rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -114,18 +125,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 123px
                     }
                 }
-    
+
                 .canciones_top_item6 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -8.2rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -134,18 +147,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 103px
                     }
                 }
-    
+
                 .canciones_top_item7 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -5.6rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -154,18 +169,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 62px
                     }
                 }
-    
+
                 .canciones_top_item8 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -6.2rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -174,18 +191,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 70px
                     }
                 }
-    
+
                 .canciones_top_item9 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -8.7rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -194,18 +213,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
                         left: 112px
                     }
                 }
-    
+
                 .canciones_top_item10 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -6.9rem;
+
                     .canciones_top_texto {
                         color: black;
                         font-family: 'Hind Madurai';
@@ -214,6 +235,7 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .canciones_top_audio {
                         width: 50px;
                         position: relative;
@@ -230,16 +252,20 @@
         .canciones_top_div {
             width: 90vw;
             min-height: 370px;
+
             .canciones_top_list {
                 .canciones_top_list_container {
                     display: grid;
                     grid-template-columns: 50% 50%;
+
                     .canciones_top_item1 {
                         position: relative;
                         top: 16px;
+
                         .canciones_top_audio {
                             margin-bottom: 1rem;
                         }
+
                         .canciones_top_portada {
                             height: 40px
                         }
@@ -255,6 +281,7 @@
         .canciones_top_div {
             width: 80vw;
             min-height: 370px;
+
             .canciones_top_list {
                 gap: 20px;
             }
@@ -267,8 +294,9 @@
         .canciones_top_div {
             width: 60vw;
             height: 340px;
+
             .canciones_top_list {
-                position:relative;
+                position: relative;
                 top: 20px;
                 gap: 25px;
             }
@@ -293,8 +321,8 @@
     .sintomas_div {
         width: 90vw;
         min-height: 530px;
-        background: rgb(93,3,3);
-        background: linear-gradient(90deg, rgba(93,3,3,1) 0%, rgba(134,13,13,1) 44%, rgba(111,72,16,1) 84%);
+        background: rgb(93, 3, 3);
+        background: linear-gradient(90deg, rgba(93, 3, 3, 1) 0%, rgba(134, 13, 13, 1) 44%, rgba(111, 72, 16, 1) 84%);
         text-align: center;
         overflow: hidden;
 
@@ -313,6 +341,7 @@
                 justify-content: center;
                 margin-top: 1rem;
                 margin-left: -7rem;
+
                 .sintomas_nombre_cancion {
                     font-family: 'Hind Madurai';
                     font-size: 1.1rem;
@@ -321,6 +350,7 @@
                     top: 6px;
                     margin-left: 16px;
                 }
+
                 .sintomas_audio {
                     width: 50px;
                     position: relative;
@@ -333,6 +363,7 @@
                 justify-content: center;
                 margin-top: 1rem;
                 margin-left: -6.3rem;
+
                 .sintomas_nombre_cancion {
                     font-family: 'Hind Madurai';
                     font-size: 1.1rem;
@@ -341,6 +372,7 @@
                     top: 6px;
                     margin-left: 16px;
                 }
+
                 .sintomas_audio {
                     width: 50px;
                     position: relative;
@@ -353,6 +385,7 @@
                 justify-content: center;
                 margin-top: 1rem;
                 margin-left: -5.1rem;
+
                 .sintomas_nombre_cancion {
                     font-family: 'Hind Madurai';
                     font-size: 1.1rem;
@@ -361,6 +394,7 @@
                     top: 6px;
                     margin-left: 16px;
                 }
+
                 .sintomas_audio {
                     width: 50px;
                     position: relative;
@@ -373,6 +407,7 @@
                 justify-content: center;
                 margin-top: 1rem;
                 margin-left: -5.6rem;
+
                 .sintomas_nombre_cancion {
                     font-family: 'Hind Madurai';
                     font-size: 1.1rem;
@@ -381,6 +416,7 @@
                     top: 6px;
                     margin-left: 16px;
                 }
+
                 .sintomas_audio {
                     width: 50px;
                     position: relative;
@@ -393,6 +429,7 @@
                 justify-content: center;
                 margin-top: 1rem;
                 margin-left: -5.5rem;
+
                 .sintomas_nombre_cancion {
                     font-family: 'Hind Madurai';
                     font-size: 1.1rem;
@@ -401,6 +438,7 @@
                     top: 6px;
                     margin-left: 16px;
                 }
+
                 .sintomas_audio {
                     width: 50px;
                     position: relative;
@@ -413,6 +451,7 @@
                 justify-content: center;
                 margin-top: 1rem;
                 margin-left: -2.2rem;
+
                 .sintomas_nombre_cancion {
                     font-family: 'Hind Madurai';
                     font-size: 1.1rem;
@@ -421,6 +460,7 @@
                     top: 6px;
                     margin-left: 16px;
                 }
+
                 .sintomas_audio {
                     width: 50px;
                     position: relative;
@@ -436,7 +476,7 @@
 .container_sintomas_aparece {
     .aparece {
         margin-top: 2rem;
-    
+
         .aparece_titulo {
             font-size: 1.6rem;
             color: $color-principal;
@@ -444,17 +484,17 @@
             text-align: center;
             margin-bottom: 1.2rem;
         }
-    
+
         .aparece_div {
             width: 90vw;
             min-height: 305px;
-            background: rgb(120,113,14);
-            background: linear-gradient(90deg, rgba(120,113,14,1) 0%, rgba(175,158,0,1) 48%, rgba(206,208,39,1) 94%);
+            background: rgb(120, 113, 14);
+            background: linear-gradient(90deg, rgba(120, 113, 14, 1) 0%, rgba(175, 158, 0, 1) 48%, rgba(206, 208, 39, 1) 94%);
             justify-content: center;
             text-align: center;
             margin-left: 4.5vw;
             overflow: hidden;
-    
+
             .aparece_list {
                 margin-left: 60px;
                 margin-top: -10px;
@@ -464,6 +504,7 @@
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -7rem;
+
                     .aparece_nombre_cancion {
                         font-family: 'Hind Madurai';
                         font-size: 1.1rem;
@@ -472,18 +513,20 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .aparece_audio {
                         width: 50px;
                         position: relative;
                         left: 22px
                     }
                 }
-    
+
                 .aparece_item2 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -12rem;
+
                     .aparece_nombre_cancion {
                         font-family: 'Hind Madurai';
                         font-size: 1.1rem;
@@ -492,19 +535,21 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .aparece_audio {
                         width: 50px;
                         position: relative;
                         left: 102px
                     }
                 }
-    
-    
+
+
                 .aparece_item3 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -10.7rem;
+
                     .aparece_nombre_cancion {
                         font-family: 'Hind Madurai';
                         font-size: 1.1rem;
@@ -513,19 +558,21 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .aparece_audio {
                         width: 50px;
                         position: relative;
                         left: 83px
                     }
                 }
-    
-    
+
+
                 .aparece_item4 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -10.5rem;
+
                     .aparece_nombre_cancion {
                         font-family: 'Hind Madurai';
                         font-size: 1.1rem;
@@ -534,21 +581,23 @@
                         top: 6px;
                         margin-left: 16px;
                     }
+
                     .aparece_audio {
                         width: 50px;
                         position: relative;
                         left: 81px
                     }
                 }
-    
-    
-    
+
+
+
                 .aparece_item5 {
                     display: flex;
                     justify-content: center;
                     margin-top: 1rem;
                     margin-left: -9.5rem;
                     height: 40px;
+
                     .aparece_nombre_cancion {
                         font-family: 'Hind Madurai';
                         font-size: 1.1rem;
@@ -557,6 +606,7 @@
                         top: -3px;
                         margin-left: 16px;
                     }
+
                     .aparece_audio {
                         width: 50px;
                         position: relative;
@@ -574,14 +624,17 @@
     .container_sintomas_aparece {
         display: grid;
         grid-template-columns: 50% 50%;
+
         .sintomas {
             .sintomas_div {
                 width: 40vw;
                 min-height: 500px;
             }
         }
+
         .aparece {
             margin-top: 1.8rem;
+
             .aparece_div {
                 width: 40vw;
                 min-height: 440px;
@@ -601,23 +654,28 @@
             .sintomas_titulo {
                 margin-left: 10rem;
             }
+
             .sintomas_div {
                 width: 45vw;
                 min-height: 330px;
                 margin-left: 10vw;
+
                 .sintomas_list {
                     display: grid;
                     grid-template-columns: 50% 50%;
                 }
             }
         }
+
         .aparece {
             margin-top: 1.8rem;
+
             .aparece_div {
                 width: 30vw;
                 min-height: 330px;
                 margin-top: -0.5rem;
                 margin-left: 10vw;
+
                 .aparece_list {
                     position: relative;
                     top: 20px
@@ -646,6 +704,7 @@
         display: flex;
         gap: 7px;
         margin-left: 10px;
+
         .conoce_h3 {
             font-family: 'Hind Madurai';
             font-size: 1.2rem;
@@ -654,22 +713,24 @@
             position: relative;
             top: 10px;
         }
-    
+
         .conoce_item1 {
             font-size: 1rem;
             text-decoration: none;
             color: #81b71a;
             margin-top: 10px;
+
             &:hover {
                 font-size: 1.1rem;
             }
         }
-    
+
         .conoce_item2 {
             font-size: 1rem;
             text-decoration: none;
-            color: #FF0000 ;
+            color: #FF0000;
             margin-top: 10px;
+
             &:hover {
                 font-size: 1.1rem;
             }
@@ -680,12 +741,14 @@
             text-decoration: none;
             color: $color-blanco;
             margin-top: 10px;
+
             &:hover {
                 font-size: 1.1rem;
             }
+
             .bi-spotify {
-            color: #81b71a;
-            margin-left: 8px;
+                color: #81b71a;
+                margin-left: 8px;
             }
         }
 
@@ -694,12 +757,14 @@
             text-decoration: none;
             color: $color-blanco;
             margin-top: 10px;
+
             &:hover {
                 font-size: 1.1rem;
             }
+
             .bi-spotify {
-            color: #81b71a;
-            margin-left: 8px;
+                color: #81b71a;
+                margin-left: 8px;
             }
         }
 
@@ -708,9 +773,11 @@
             text-decoration: none;
             color: $color-blanco;
             margin-top: 10px;
+
             &:hover {
                 font-size: 1.1rem;
             }
+
             .bi-youtube {
                 color: #FF0000;
                 margin-left: 8px;
@@ -722,6 +789,7 @@
 @media (min-width: 850px) {
     .conoce {
         margin-top: 8rem;
+
         .conoce_body {
             display: flex;
             gap: 25px;
@@ -730,22 +798,27 @@
                 .conoce_h3 {
                     font-size: 1.2rem;
                 }
+
                 .conoce_item1 {
                     font-size: 1rem;
                     margin-top: 10px;
                 }
+
                 .conoce_item2 {
                     font-size: 1rem;
                     margin-top: 10px;
                 }
+
                 .conoce_item3 {
                     font-size: 1rem;
                     margin-top: 10px;
                 }
+
                 .conoce_item4 {
                     font-size: 1rem;
                     margin-top: 10px;
                 }
+
                 .conoce_item5 {
                     font-size: 1rem;
                     margin-top: 10px;
